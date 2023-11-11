@@ -1,0 +1,110 @@
+@font-face {
+  font-family: inter-m;
+  src: url(fonts/Inter-UI-Medium.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.containerwr {
+  width: 100%;
+  padding: 10px 25px;
+  margin: 70px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  grid-column-gap: 20px;
+  grid-gap: 30px;
+  overflow: hidden;
+}
+.containerwr .cards {
+  /* height: 165px; */
+  height: auto;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4); 
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+  overflow: hidden;
+}
+.containerwr .cards .bg {
+  width: 100%;
+  height: 140px;
+  /* background: white; */
+}
+.containerwr .cards .imgs {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-position-y: top !important;
+}
+.containerwr .cards .imgs img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.containerwr .cards h6 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  margin: 10px 8px;
+}
+.containerwr .star {
+  background: #ff69b4;
+  color: white;
+}
+.containerwr .star h6 {
+  color: white;
+}
+@media only screen and (max-width: 375px){
+  .gallery-head {
+      display: none;
+  }
+  .containerwr {
+      width: 100%;
+      padding: 0;
+      margin: 0px 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-column-gap: 10px;
+      grid-gap: 15px !important;
+      grid-gap: 0px;
+      padding: 15px;
+
+  }
+  .containerwr .cards {
+      height: 100px;
+      box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
+      border-radius: 0px;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4); 
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+      
+  }
+  .containerwr .cards .bg {
+      width: 100%;
+      height: 80px;
+  }
+  .containerwr .cards .imgs {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      background-position-y: top !important;
+  }
+  .containerwr .cards h6 {
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      font-size: 10px;
+      margin: 5px 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .mainNav {
+    display: none !important;
+  }
+}
