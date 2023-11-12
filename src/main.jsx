@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
+import Error404 from './Error404.jsx';
 import AbellaDanger from './components/Stars/AbellaDanger.jsx';
 import AlexaGrace from './components/Stars/AlexaGrace.jsx';
 import BellaRolland from './components/Stars/BellaRolland.jsx';
@@ -43,6 +45,10 @@ Fancybox.bind('[data-fancybox="gallery"]', {
 }); 
 //  end
 const router = createBrowserRouter([
+  {
+    path: "*",
+    element: <Error404 />,
+  },
   {
     path: "/",
     element: <App />,
