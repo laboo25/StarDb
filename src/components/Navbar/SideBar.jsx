@@ -10,14 +10,14 @@ const SideBar = ({ isActive }) => {
   return (
     <>
       <div>
-        <button className='w-10 h-10 text-white absolute right-2 top-2 z-[12] ' onClick={() => setShow(!show)}>
-          {
-            show == true ? <HiOutlineMenu className='text-white text-[30px]' /> : <HiOutlineMenu className='text-green-500 text-[30px]' />
-          }
-        </button>
-        <div className={`SideBar w-[180px] h-screen overflow-y-auto  overflow-x-hidden absolute ${show ? 'left-0 bg-[#00000077]' : 'left-[-100%]'}`} >
 
-          <div className={`SideBarInner flex flex-wrap flex-col w-auto font-serif capitalize font-[20px] bg-blue-600 p-2 `} style={{ fontFamily: 'inter-r' }}>
+        <div className={`SideBar w-[180px] h-screen overflow-y-auto  overflow-x-hidden absolute `} >
+          <button className='w-10 h-10 text-white absolute right-2 top-2 z-[12] ' onClick={() => setShow(!show)}>
+            {
+              show == true ? <HiOutlineMenu className='text-white text-[30px]' /> : <HiOutlineMenu className='text-green-500 text-[30px]' />
+            }
+          </button>
+          <div className={`SideBarInner flex flex-wrap flex-col w-auto font-serif capitalize font-[20px] bg-blue-600 p-2 ${show ? 'left-0 bg-[#00000077]' : 'left-[-100%]'}`} style={{ fontFamily: 'inter-r ' }}>
 
             <Link to='/' className='text-white text-center text-[20px] font-black	 uppercase drop-shadow-md my-2 mb-4'>
               home
