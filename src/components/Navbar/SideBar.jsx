@@ -12,7 +12,7 @@ const SideBar = ({ isActive }) => {
       <div>
 
         <div className={`SideBar w-[180px] h-screen overflow-y-auto  overflow-x-hidden absolute `} >
-          <button className='w-10 h-10 text-white absolute right-2 top-2 z-[12] ' onClick={() => setShow(!show)}>
+          <button className='w-10 h-10 text-white fixed right-2 top-2 z-[12] ' onClick={() => setShow(!show)}>
             {
               show == true ? <HiOutlineMenu className='text-white text-[30px]' /> : <HiOutlineMenu className='text-green-500 text-[30px]' />
             }
