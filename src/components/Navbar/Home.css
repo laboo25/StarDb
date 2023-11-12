@@ -107,4 +107,6 @@
   .mainNav {
     display: none !important;
   }
+  .containerwr {
+    grid-gap: 15px;
 }
