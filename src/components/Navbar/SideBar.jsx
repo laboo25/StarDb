@@ -17,7 +17,7 @@ const SideBar = ({ isActive }) => {
               show == true ? <HiOutlineMenu className='text-white text-[30px]' /> : <HiOutlineMenu className='text-green-500 text-[30px]' />
             }
           </button>
-          <div className={`SideBarInner flex flex-wrap flex-col w-auto font-serif capitalize font-[20px] bg-blue-600 p-2 ${show ? 'left-0 bg-[#00000077]' : 'left-[-100%]'}`} style={{ fontFamily: 'inter-r ' }}>
+          <div className={`SideBarInner flex flex-wrap flex-col w-auto font-serif capitalize font-[20px] bg-blue-600 p-2 ${show ? 'block' : 'hidden'}`} style={{ fontFamily: 'inter-r ' }}>
 
             <Link to='/' className='text-white text-center text-[20px] font-black	 uppercase drop-shadow-md my-2 mb-4'>
               home
