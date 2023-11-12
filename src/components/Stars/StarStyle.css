@@ -179,14 +179,19 @@
       width: 100% !important;
       height: 100vh !important;
       /* background: #00000077; */
-      transition: all linear 0.3s !important;
+      transition: linear 0.3s !important;
       z-index: 11 !important;
       overflow-y: scroll !important;
+      position: absolute !important;
     }
     .SideBarInner {
       width: 60% !important;
       padding-left: 50px !important;
-      
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      transition: all 0.5s;
+      position: absolute !important;
     }
     .banner {
       width: 100%;
