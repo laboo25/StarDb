@@ -178,15 +178,15 @@
     .SideBar {
       width: 100% !important;
       height: 100vh !important;
-      background: #00000077;
-      position: absolute !important;
-      top: 0 !important;
-      left: 0 !important;
+      /* background: #00000077; */
+      transition: all linear 0.3s !important;
       z-index: 11 !important;
-      overflow: hidden;
+      overflow-y: scroll !important;
     }
     .SideBarInner {
       width: 60% !important;
+      padding-left: 50px !important;
+      
     }
     .banner {
       width: 100%;
