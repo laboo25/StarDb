@@ -8,8 +8,6 @@ import SideBar from '../Navbar/SideBar'
 const AlexaGrace = () => {
 
   const [difference, setDifference] = useState();
-  // Get the element by its ID
-
   useEffect(() => {
     // Access the data attribute inside the useEffect hook
     const currentDate = new Date();
@@ -51,11 +49,25 @@ const AlexaGrace = () => {
     processImages();
   }, []);
 
+  
+
+  // useEffect(()=>{
+  //   setData(Alexa);
+  //   setCollection([... new Set(Alexa.map((item)=> item.title))])
+  // },[]) 
+
+  // const gallery_filter = (itemData) =>{
+  //   const filterData = Alexa.filter((item)=> item.title == itemData);
+  //   setData(filterData);
+  // }
+ 
+
   return (
     <>
-        <div>
-          <Navbar/>
-          <div className='flex'>
+      <div>
+        <Navbar />
+        <div className='flex'>
+        {/* <div className="w-[180px] h-screen"></div> */}
           <SideBar />
           <div>
             <div class="banner">
@@ -64,54 +76,54 @@ const AlexaGrace = () => {
                 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/alexaGrace.jpg" alt="" />
               </div>
               <div className="textBox">
-              <h3>alexa Grace</h3>
+                <h3>alexa Grace</h3>
                 <p>
-                    aliases: <span>Alexa of Nyce, Meghan Marie, Renee Marie</span>
+                  aliases: <span>Alexa of Nyce, Meghan Marie, Renee Marie</span>
                 </p>
                 <p>
-                    birth place: <span>New Jersey, US</span>
+                  birth place: <span>New Jersey, US</span>
                 </p>
                 <p>
-                    birth date: <span>04―November―1994</span>
+                  birth date: <span>04―November―1994</span>
                 </p>
                 <p>
-                    age: <span id="age" data-year="1994-11-4">{difference}</span><span  className='lowercase'>y</span>
+                  age: <span id="age" data-year="1994-11-4">{difference}</span><span className='lowercase'>y</span>
                 </p>
                 <p>
-                    Profession: <span>Adult Model, Porn Star</span>
+                  Profession: <span>Adult Model, Porn Star</span>
                 </p>
                 <p>
-                    career: <span>2015―<span class="common retired">2018</span></span>
+                  career: <span>2015―<span class="common retired">2018</span></span>
                 </p>
                 <p>
-                    race: <span>caucasian</span>
+                  race: <span>caucasian</span>
                 </p>
                 <p>
-                    boobs: <span>natural</span>
+                  boobs: <span>natural</span>
                 </p>
                 <p>
-                    measurements: <span>32A―25―36</span>
+                  measurements: <span>32A―25―36</span>
                 </p>
                 <p>
-                    hair color: <span>blonde</span>
+                  hair color: <span>blonde</span>
                 </p>
                 <p>
-                    eye color: <span>green</span>
+                  eye color: <span>green</span>
                 </p>
                 <p>
-                    shoe size: <span>40 eu</span>
+                  shoe size: <span>40 eu</span>
                 </p>
                 <p>
-                    height: <span>5'10" [177 Cm]</span>
+                  height: <span>5'10" [177 Cm]</span>
                 </p>
                 <p>
-                    piercings: <span>Navel</span>
+                  piercings: <span>Navel</span>
                 </p>
                 <p>
-                    tattoos: <span>no</span>
+                  tattoos: <span>no</span>
                 </p>
                 <p>
-                    pubic hair: <span>no</span>
+                  pubic hair: <span>no</span>
                 </p>
                 <p>
                   Performance: <span>Bondage, Vaginal</span>
@@ -120,7 +132,26 @@ const AlexaGrace = () => {
             </div>
           </div>
         </div>
+        <div>
+        {/* <div className="App">
+      <div className="galleryWrapper">
+        <div className="filterItem">
+          <ul>
+            <li><button onClick={()=> setData(Alexa)}>All</button></li>
+            {
+              collection.map((item)=> <li><button onClick={()=>{gallery_filter(item)}}>{item}</button></li>)
+            }
+          </ul>
         </div>
+        <div className="galleryContainer">
+          {
+            data.map((item)=> <div  key={item.id} className="galleryItem"><img src={item.image  } /></div> )
+          }
+        </div>
+      </div>
+    </div> */}
+        </div>
+      </div>
     </>
   )
 }

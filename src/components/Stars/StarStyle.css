@@ -178,20 +178,26 @@
     .SideBar {
       width: 100% !important;
       height: 100vh !important;
-      /* background: #00000077; */
+      background: #00000077;
       transition: linear 0.3s !important;
-      z-index: 11 !important;
-      overflow-y: scroll !important;
       position: absolute !important;
+      background-image: url('assets/bg-side.webp') !important;
+      background-position: center;
+      background-size: cover;
+    }
+    .SideBar a.active {
+      color: rgb(255, 255, 255);
+      background-color: rgb(170, 0, 0);
+      padding: 8px 5px;
+      border-radius: 5px;
     }
     .SideBarInner {
-      width: 60% !important;
+      width: 100% !important;
       padding-left: 50px !important;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      transition: all 0.5s;
-      position: absolute !important;
+      
     }
     .banner {
       width: 100%;

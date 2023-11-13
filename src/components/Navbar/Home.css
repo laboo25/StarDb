@@ -66,23 +66,23 @@
       display: none;
   }
   .containerwr {
-      width: 100%;
-      padding: 0;
-      margin: 0px 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      grid-column-gap: 10px;
+      width: 100% !important;
+      padding: 0 !important;
+      margin: 0px 0 !important;
+      display: grid !important;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+      grid-column-gap: 10px !important;
       grid-gap: 15px !important;
-      grid-gap: 0px;
-      padding: 15px;
+      padding: 15px !important;
 
   }
   .containerwr .cards {
-      height: 100px;
-      box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
-      border-radius: 0px;
-      -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4); 
-      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+      height: 100px !important;
+      box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%) !important;
+      border-radius: 0px !important;
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4) !important; 
+      box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4) !important;
+      overflow: hidden;
       
   }
   .containerwr .cards .bg {
@@ -108,6 +108,45 @@
     display: none !important;
   }
   .containerwr {
-    grid-gap: 15px;
-    }
+    width: 100%;
+    /*background: rgb(236, 236, 236);*/
+    padding: 0;
+    margin: 0px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-column-gap: 10px;
+    grid-gap: 15px !important;
+    /* grid-column-gap: 0px; */
+    grid-gap: 0px;
+    padding: 15px;
+
+}
+.containerwr .cards {
+    /* width: 150px; */
+    height: 100px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4); 
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);
+    /* overflow: visible; */
+    
+}
+.containerwr .cards .bg {
+    width: 100%;
+    height: 80px;
+    /* background: white; */
+}
+.containerwr .cards .imgs {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-position-y: top !important;
+}
+.containerwr .cards h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin: 5px 10px;
+}
 }
