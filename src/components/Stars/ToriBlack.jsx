@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import '../Navbar/StarStyle.css';
-// import Navbar from '../Navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 import SideBar from '../Navbar/SideBar'
 
 
