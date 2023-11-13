@@ -181,7 +181,7 @@
       /* background: #00000077; */
       transition: linear 0.3s !important;
       position: absolute !important;
-      background-image: url('assets/bg-side.webp') !important;
+      background-image: url('https://raw.githubusercontent.com/laboo25/StarDb/main/public/assets/bg-side.webp') !important;
       background-position: center;
       background-size: cover;
     }
