@@ -75,25 +75,25 @@ const TiffanyTatum = () => {
                 {/* <Link to='/App' className="homeBtn">Home</Link> */}
                 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/tiffanyTatum.jpg" alt="" />
               </div>
-              <div className="textBox">
-                <h3>tiffany tatum</h3>
+              <div class="textBox">
+                <h3>tiffany Tatum</h3>
                 <p>
-                  aliases: <span>Alexa of Nyce, Meghan Marie, Renee Marie</span>
+                  aliases: <span>Enzio Ricci</span>
                 </p>
                 <p>
-                  birth place: <span>New Jersey, US</span>
+                  birth place: <span>Budapest, HUNGARY</span>
                 </p>
                 <p>
-                  birth date: <span>04―November―1994</span>
+                  birth date: <span>14―august―1997</span>
                 </p>
                 <p>
-                  age: <span id="age" data-year="1994-11-4">{difference}</span><span className='lowercase'>y</span>
+                  age: <span id="age" data-year="1997-8-14">{difference}</span><span className="lowercase">y</span>
                 </p>
                 <p>
                   Profession: <span>Adult Model, Porn Star</span>
                 </p>
                 <p>
-                  career: <span>2015―<span class="common retired">2018</span></span>
+                  career: <span>2017―<span class="common active">active</span></span>
                 </p>
                 <p>
                   race: <span>caucasian</span>
@@ -102,32 +102,33 @@ const TiffanyTatum = () => {
                   boobs: <span>natural</span>
                 </p>
                 <p>
-                  measurements: <span>32A―25―36</span>
+                  measurements: <span>34A―23―34</span>
                 </p>
                 <p>
-                  hair color: <span>blonde</span>
+                  hair color: <span>Blonde</span>
                 </p>
                 <p>
-                  eye color: <span>green</span>
+                  eye color: <span>blue</span>
                 </p>
                 <p>
-                  shoe size: <span>40 eu</span>
+                  shoe size: <span>36 eu</span>
                 </p>
                 <p>
-                  height: <span>5'10" [177 Cm]</span>
+                  height: <span>5'5" [165 cm]</span>
                 </p>
                 <p>
-                  piercings: <span>Navel</span>
+                  piercings: <span>no</span>
                 </p>
                 <p>
-                  tattoos: <span>no</span>
+                  tattoos: <span>"Live Your Dreams" On Right Arm; Script Inside Left Elbow; Around Left Upper Forearm; Script Inside Left Wrist; "Never Let Your Fear Decide Your Fate" On Right Flank; Birds With Two Lines Of Script Underneath On Left Shoulder Blade</span>
                 </p>
                 <p>
-                  pubic hair: <span>no</span>
+                  pubic hair: <span>Trimmed</span>
                 </p>
                 <p>
-                  Performance: <span>Bondage, Vaginal</span>
+                  abaility: <span>anal, FF</span>
                 </p>
+
               </div>
             </div>
           </div>
