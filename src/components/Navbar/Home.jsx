@@ -572,7 +572,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/tiffanyTatum">
+              <Link to="./tiffanyTatum">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/tiffanyTatum—index.jpg" />
                 </div>
