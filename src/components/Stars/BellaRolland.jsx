@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './StarStyle.css';
+import '../Navbar/StarStyle.css';
 import Navbar from '../Navbar/Navbar'
 import SideBar from '../Navbar/SideBar'
 

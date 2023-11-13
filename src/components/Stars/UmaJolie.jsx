@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './StarStyle.css'
+import '../Navbar/StarStyle.css';
 import Navbar from '../Navbar/Navbar'
 import SideBar from '../Navbar/SideBar'
 
@@ -61,7 +61,7 @@ const UmaJolie = () => {
                       <div class="banner">
                           <div class="image">
                               {/* <Link to='/App' className="homeBtn">Home</Link> */}
-                              <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/umaJolie.jpg" alt="" />
+                              <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/umaJolie.jpg" alt="img" />
                           </div>
                           <div className="textBox">
                               <h3>uma jolie</h3>
