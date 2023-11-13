@@ -178,7 +178,7 @@
     .SideBar {
       width: 100% !important;
       height: 100vh !important;
-      background: #00000077;
+      /* background: #00000077; */
       transition: linear 0.3s !important;
       position: absolute !important;
       background-image: url('assets/bg-side.webp') !important;
