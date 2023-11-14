@@ -65,6 +65,8 @@ const SideBar = ({ isActive }) => {
               <NavLink to='/BlakeEden' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>blake eden</NavLink>
               <NavLink to='/BunnyColby' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>bunny colby</NavLink>
 
+                <NavLink to='/ChristyWhite' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>christy white</NavLink>
+
 
               <NavLink to='/MilaAzul' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>mila azul</NavLink>
               <NavLink to='/MollyLittle' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>molly little</NavLink>
