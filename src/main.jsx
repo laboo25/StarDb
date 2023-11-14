@@ -11,6 +11,7 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import AbellaDanger from './components/Stars/AbellaDanger.jsx';
 import AlexaGrace from './components/Stars/AlexaGrace.jsx';
 import BellaRolland from './components/Stars/BellaRolland.jsx';
+import ChristyWhite from './components/Stars/ChristyWhite.jsx';
 import MilaAzul from './components/Stars/MilaAzul.jsx';
 import ToriBlack from './components/Stars/ToriBlack.jsx';
 import UmaJolie from './components/Stars/UmaJolie.jsx';
@@ -64,6 +65,10 @@ const router = createBrowserRouter([
   {
     path: "/bellaRolland",
     element: <BellaRolland />,
+  },
+  {
+    path: "/christyWhite",
+    element: <ChristyWhite />,
   },
   {
     path: "/milaAzul",
