@@ -33,7 +33,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/arianaMarie">
+              <Link to="/arianaMarie">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/arianaMarie—index.jpg" />
                 </div>
@@ -44,7 +44,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/augustAmes">
+              <Link to="/augustAmes">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/augustAmes—index.jpg" />
                 </div>
@@ -55,7 +55,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/averyCristy">
+              <Link to="/averyCristy">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/averyCristy—index.jpg" />
                 </div>
@@ -77,7 +77,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/blakeEden">
+<Link to="/blakeEden">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/blakeEden—index.jpg" />
 </div>
@@ -88,7 +88,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/bunnyColby">
+<Link to="/bunnyColby">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/bunnyColby—index.jpg" />
 </div>
@@ -99,7 +99,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/caseyCalvert">
+              <Link to="/caseyCalvert">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/caseyCalvert—index.jpg" />
                 </div>
@@ -110,7 +110,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/charlieRed">
+              <Link to="/charlieRed">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/charlieRed—index.jpg" />
                 </div>
@@ -119,9 +119,21 @@ const Home = () => {
             <h6>Charlie red</h6>
           </div>
 
+          <div className="cards">
+            <div className="bg">
+              <Link to="/christyWhite">
+                <div className="imgs">
+                  <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/christyWhite—index.jpg" />
+                </div>
+              </Link>
+            </div>
+            <h6>christy white</h6>
+          </div>
+
+
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/danniRivers">
+<Link to="/danniRivers">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/danniRivers—index.jpg" />
 </div>
@@ -132,7 +144,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/emilyWillis">
+              <Link to="/emilyWillis">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/emilyWillis—index.jpg" />
                 </div>
@@ -143,7 +155,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/evaElfie">
+              <Link to="/evaElfie">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/evaElfie—index.jpg" />
                 </div>
@@ -154,7 +166,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/evelynClaire">
+              <Link to="/evelynClaire">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/evelynClaire—index.jpg" />
                 </div>
@@ -165,7 +177,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/elsaJean">
+              <Link to="/elsaJean">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/elsaJean—index.jpg" />
                 </div>
@@ -176,7 +188,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/freyaMayer">
+<Link to="/freyaMayer">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/freyaMayer—index.jpg" />
 </div>
@@ -187,7 +199,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/giannaDior">
+              <Link to="/giannaDior">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/giannaDior—index.jpg" />
                 </div>
@@ -198,7 +210,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/gloriaSol">
+              <Link to="/gloriaSol">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/gloriaSol—index.jpg" />
                 </div>
@@ -209,7 +221,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/haleyReed">
+              <Link to="/haleyReed">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/haleyReed—index.jpg" />
                 </div>
@@ -220,7 +232,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/hazelMoore">
+              <Link to="/hazelMoore">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/hazelMoore—index.jpg" />
                 </div>
@@ -231,7 +243,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/ivyAura">
+              <Link to="/ivyAura">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/ivyAura—index.jpg" />
                 </div>
@@ -242,7 +254,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/izzyLush">
+<Link to="/izzyLush">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/izzyLush—index.jpg" />
 </div>
@@ -253,7 +265,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/janiceGriffith">
+              <Link to="/janiceGriffith">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/janiceGriffith―index.jpg" />
                 </div>
@@ -264,7 +276,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/jayeSummers">
+              <Link to="/jayeSummers">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/jayeSummers—index.jpg" />
                 </div>
@@ -275,7 +287,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/jessieSaint">
+              <Link to="/jessieSaint">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/jessieSaint—index.jpg" />
                 </div>
@@ -286,7 +298,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/jiaLissa">
+              <Link to="/jiaLissa">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/jiaLissa—index.jpg" />
                 </div>
@@ -297,7 +309,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/jillianJanson">
+              <Link to="/jillianJanson">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/jillianJanson—index.jpg" />
                 </div>
@@ -308,7 +320,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/jillKassidy">
+              <Link to="/jillKassidy">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/jillKassidy—index.jpg" />
                 </div>
@@ -319,7 +331,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/kendraSunderland">
+              <Link to="/kendraSunderland">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/kendraSunderland—index.jpg" />
                 </div>
@@ -330,7 +342,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/kennaJames">
+              <Link to="/kennaJames">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/kennaJames—index.jpg" />
                 </div>
@@ -341,7 +353,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/kristenScott">
+              <Link to="/kristenScott">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/kristenScott—index.jpg" />
                 </div>
@@ -352,7 +364,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/kylerQquinn">
+              <Link to="/kylerQquinn">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/kylerQuinn—index.jpg" />
                 </div>
@@ -363,7 +375,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/lanaRhoades">
+              <Link to="/lanaRhoades">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lanaRhoades—index.jpg" />
                 </div>
@@ -374,7 +386,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/leahGotti">
+              <Link to="/leahGotti">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/leahGotti—index.jpg" />
                 </div>
@@ -385,7 +397,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/lenaAnderson">
+              <Link to="/lenaAnderson">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lenaAnderson—index.jpg" />
                 </div>
@@ -396,7 +408,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/lenaReif">
+              <Link to="/lenaReif">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lenaReif—index.jpg" />
                 </div>
@@ -407,7 +419,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/littleCaprice">
+              <Link to="/littleCaprice">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/littleCaprice—index.jpg" />
                 </div>
@@ -418,7 +430,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/liyaSilver">
+              <Link to="/liyaSilver">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/liyaSilver—index.jpg" />
                 </div>
@@ -429,7 +441,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/maddyMay">
+              <Link to="/maddyMay">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/maddyMay—index.jpg" />
                 </div>
@@ -440,7 +452,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/melenaMariaRya">
+              <Link to="/melenaMariaRya">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melenaMariaRya—index.jpg" />
                 </div>
@@ -451,7 +463,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/melodyMarks">
+<Link to="/melodyMarks">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melodymarks—index.jpg" />
 </div>
@@ -473,7 +485,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/mollyLittle">
+              <Link to="/mollyLittle">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/mollyLittle—index.jpg" />
                 </div>
@@ -484,7 +496,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/nancyAce">
+              <Link to="/nancyAce">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/nancyAce—index.jpg" />
                 </div>
@@ -495,7 +507,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/naomiSwann">
+              <Link to="/naomiSwann">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/naomiSwann—index.jpg" />
                 </div>
@@ -506,7 +518,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/riaSunn">
+<Link to="/riaSunn">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/riaSunn—index.jpg" />
 </div>
@@ -517,7 +529,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/rikaFane">
+              <Link to="/rikaFane">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/rikaFane—index.jpg" />
                 </div>
@@ -528,7 +540,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/rileyReid">
+              <Link to="/rileyReid">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/rileyReid—index.jpg" />
                 </div>
@@ -539,7 +551,7 @@ const Home = () => {
 
           <div className="cards">
             <div className="bg">
-              <Link to="./pages/scarlitScandal">
+              <Link to="/scarlitScandal">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/scarlitScandal—index.jpg" />
                 </div>
@@ -550,7 +562,7 @@ const Home = () => {
 
           <div className="cards star">
             <div className="bg">
-              <Link to="./pages/stacyCruz">
+              <Link to="/stacyCruz">
                 <div className="imgs">
                   <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/stacyCruz—index.jpg" />
                 </div>
@@ -561,7 +573,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/sybil">
+<Link to="/sybil">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sybil—index.jpg" />
 </div>
@@ -594,7 +606,7 @@ const Home = () => {
 
           {/* <div className="cards star">
 <div className="bg">
-<Link to="./pages/umaJolie">
+<Link to="/umaJolie">
 <div className="imgs">
 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/umaJolie—index.jpg" />
 </div>
