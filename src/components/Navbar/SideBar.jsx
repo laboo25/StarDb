@@ -31,10 +31,6 @@ const SideBar = ({ isActive }) => {
       setImgUrl(randomImg)
     }
     
-    
-
-    
-
   return (
     <>
       
@@ -45,12 +41,11 @@ const SideBar = ({ isActive }) => {
             show == true ? <HiOutlineMenu className='text-white text-[30px]' /> : <HiOutlineMenu className={` text-[30px]`} style={{ color: `${color}` }} onMouseUp={handleChange} />
 
           }
-
         </button>
         <div className={`SideBar w-[180px] h-full overflow-x-hidden ${show == true ? ' left-0' : ' left-[-100%]'}`} style={{backgroundImage: `url(${imgUrl})`}}>
 
           <div className='SideBarChild overflow-x-hidden overflow-y-auto h-full'>
-            <div className={`SideBarInner w-[180px] bg-[#ff00004d] h-auto flex flex-wrap flex-col font-serif capitalize font-[20px] pl-[15px] p-2 pr-7 `} style={{ fontFamily: 'inter-r  ', fontWeight: 'thin' }}>
+            <div className={`SideBarInner w-[180px] bg-blue-400 h-auto flex flex-wrap flex-col font-serif capitalize font-[20px] pl-[15px] p-2 pr-7 `} style={{ fontFamily: 'inter-r  ', fontWeight: 'thin' }}>
 
               <Link to='/' className='text-white text-center text-[20px] font-black	 uppercase drop-shadow-md my-2 mb-4'>
                 home
@@ -65,7 +60,10 @@ const SideBar = ({ isActive }) => {
               <NavLink to='/BlakeEden' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>blake eden</NavLink>
               <NavLink to='/BunnyColby' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>bunny colby</NavLink>
 
-                <NavLink to='/ChristyWhite' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>christy white</NavLink>
+              <NavLink to='/CharlieRed' className={`nav-link my-1 ${isActive? 'active' : 'not-active'}`}>charlie red</NavLink>
+              <NavLink to='/ChristyWhite' className={`nav-link my-1 ${isActive? 'active' : 'not-active'}`}>christy white</NavLink>
+
+              <NavLink to='/lenaAnderson' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>lena anderson</NavLink>
 
 
               <NavLink to='/MilaAzul' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>mila azul</NavLink>

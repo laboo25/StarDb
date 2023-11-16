@@ -6,17 +6,27 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
+// import { Provider } from "react-redux";
+// import store from "./redux/store";
+
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
-import AbellaDanger from './components/Stars/AbellaDanger.jsx';
-import AlexaGrace from './components/Stars/AlexaGrace.jsx';
-import BellaRolland from './components/Stars/BellaRolland.jsx';
-import ChristyWhite from './components/Stars/ChristyWhite.jsx';
-import MilaAzul from './components/Stars/MilaAzul.jsx';
-import ToriBlack from './components/Stars/ToriBlack.jsx';
-import UmaJolie from './components/Stars/UmaJolie.jsx';
-import TiffanyTatum from './components/Stars/TiffanyTatum.jsx';
+import AbellaDanger from './components/Stars/A/AbellaDanger.jsx';
+import AlexaGrace from './components/Stars/A/AlexaGrace.jsx';
+import BellaRolland from './components/Stars/B/BellaRolland.jsx';
+import MilaAzul from './components/Stars/M/MilaAzul.jsx';
+import ToriBlack from './components/Stars/T/ToriBlack.jsx';
+import UmaJolie from './components/Stars/U/UmaJolie.jsx';
+import TiffanyTatum from './components/Stars/T/TiffanyTatum.jsx';
 import Error404 from './Error404.jsx';
+
+import ChristyWhite from './components/Stars/C/ChristyWhite.jsx';
+// import JessieSaint from './components/Stars/J/JessieSaint.jsx';
+import JiaLissa from './components/Stars/J/JiaLissa.jsx';
+import LenaAnderson from './components/Stars/L/LenaAnderson.jsx'
+import LenaIsReadyToGo from './components/Stars/L/LenaAnderson/LenaIsReadyToGo.jsx';
+import Home from './components/Navbar/Home.jsx';
 
 
 
@@ -52,6 +62,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    exact: true
   },
   {
     path: "AbellaDanger",
@@ -60,7 +71,7 @@ const router = createBrowserRouter([
   },
   {
     path: "alexaGrace",
-    element: <AlexaGrace/>,
+    element: <AlexaGrace />,
   },
   {
     path: "/bellaRolland",
@@ -70,6 +81,23 @@ const router = createBrowserRouter([
     path: "/christyWhite",
     element: <ChristyWhite />,
   },
+  // {
+  //   path: "/jessieSaint",
+  //   element: <JessieSaint />,
+  // },
+  {
+    path: "/jiaLissa",
+    element: <JiaLissa />,
+  },
+  {
+    path: "/lenaAnderson",
+    element: <LenaAnderson />,
+  },
+      {
+        path: "/lenaIsReadyToGo",
+        element: <LenaIsReadyToGo />,
+      },
+ 
   {
     path: "/milaAzul",
     element: <MilaAzul />,
@@ -91,6 +119,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* <Provider store={store}></Provider> */}
     <RouterProvider router={router} />
     {/* <App /> */}
   </React.StrictMode>,
