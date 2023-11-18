@@ -146,7 +146,7 @@ const LenaAnderson = () => {
           </div>
         </div>
 
-        <div className={ `imgs-section relative z-0 ${show == true ? 'h-full overflow-auto' : 'h-[182px] overflow-y-hidden after:absolute after:left-0 after:bottom-[-10px] after:content-[""] after:w-full after:h-[35px] after:bg-white after:opacity-0 after:z-[10]'}`}>
+        <div className={ `imgs-section relative z-0 ${show == true ? 'h-full overflow-auto' : 'h-[182px] overflow-hidden after:absolute after:left-0 after:bottom-[-10px] after:content-[""] after:w-full after:h-[35px] after:bg-white after:z-[10]'}`}>
         <button className=' w-10 h-10 text-black absolute right-[50%] bottom-[-5px] z-[122] ' onMouseUp={handleClick}>
           {
             show == true ? <IoIosArrowDown className='text-black text-[30px]' /> : <IoIosArrowUp className={` text-[30px]`} onMouseUp={handleChange} />
@@ -156,14 +156,14 @@ const LenaAnderson = () => {
           <div className='folders'>
             <div className='folder'>
               <Link to='/LenaIsReadyToGo'>
-                <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/%23covers/lena_is_ready_to_let_go.png)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+                <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/hwxxx_lena_is_ready_to_let_go/lena_is_ready_to_let_go—01.jpg)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
 
                 </div></Link>
               <h3>lena in ready to go <span className='x'>x81</span></h3>
             </div>
             <div className='folder'>
               <Link to='/lenaEnjoysWineAndGoodTimes'>
-                <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/%23covers/lena_enjoys_wine_and_good_time.png)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+                <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/hwxxx_lena_enjoys_wine_and_good_time/lena_enjoys_wine_and_good_time—01.jpg)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
 
                 </div></Link>
               <h3>lena enjoys wine and good times <span className='x'>x59</span></h3>

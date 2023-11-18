@@ -1,18 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import '../Navbar/Home.css';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
-// import HomeData from './HomeData.jsx';
 
 const Home = () => {
   
-
   return (
     <>
       <div className='w-full'>
         <Navbar />
-        <div className="containerwr">
 
+        <div className="containerwr">
+        
           <div className="cards">
             <div className="bg">
               <Link to="/AbellaDanger">

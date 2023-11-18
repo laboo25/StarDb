@@ -42,10 +42,10 @@ const SideBar = ({ isActive }) => {
 
           }
         </button>
-        <div className={`SideBar w-[180px] h-full overflow-x-hidden ${show == true ? ' left-0' : ' left-[-100%]'}`} style={{backgroundImage: `url(${imgUrl})`}}>
+        <div className={`SideBar w-[180px] h-full overflow-x-hidden ${show == true ? ' left-0' : ' left-[-100%]'}`} style={{backgroundImage: `url(${imgUrl})`, scrollbarWidth: 'none' }}>
 
-          <div className='SideBarChild overflow-x-hidden overflow-y-auto h-full'>
-            <div className={`SideBarInner w-[180px] bg-blue-400 h-auto flex flex-wrap flex-col font-serif capitalize font-[20px] pl-[15px] p-2 pr-7 `} style={{ fontFamily: 'inter-r  ', fontWeight: 'thin' }}>
+          <div className='SideBarChild overflow-x-hidden overflow-y-auto h-full' style={{ scrollbarWidth: 'none'}}>
+            <div className={`SideBarInner w-[180px] bg-blue-400 h-auto flex flex-wrap flex-col font-serif capitalize font-[20px] pl-[15px] p-2 pr-7 `} style={{ fontFamily: 'inter-r  ', fontWeight: 'thin', }}>
 
               <Link to='/' className='text-white text-center text-[20px] font-black	 uppercase drop-shadow-md my-2 mb-4'>
                 home
@@ -64,7 +64,7 @@ const SideBar = ({ isActive }) => {
               <NavLink to='/ChristyWhite' className={`nav-link my-1 ${isActive? 'active' : 'not-active'}`}>christy white</NavLink>
 
               <NavLink to='/lenaAnderson' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>lena anderson</NavLink>
-
+              <NavLink to='/liyaSilver' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>liya silver</NavLink>
 
               <NavLink to='/MilaAzul' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>mila azul</NavLink>
               <NavLink to='/MollyLittle' className={`nav-link my-1 ${isActive ? 'active' : 'not-active'}`}>molly little</NavLink>
