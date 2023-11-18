@@ -146,7 +146,7 @@ const LenaAnderson = () => {
           </div>
         </div>
 
-        <div className={ `imgs-section relative z-0 ${show == true ? 'h-full overflow-auto' : 'h-[182px] overflow-hidden after:absolute after:left-0 after:bottom-[-10px] after:content-[""] after:w-full after:h-[35px] after:bg-white after:z-[10]'}`}>
+        <div className={ `imgs-section relative z-0 ${show == true ? 'h-full overflow-auto' : 'h-[182px] overflow-y-hidden after:absolute after:left-0 after:bottom-[-10px] after:content-[""] after:w-full after:h-[35px] after:bg-white after:z-[10]'}`}>
         <button className=' w-10 h-10 text-black absolute right-[50%] bottom-[-5px] z-[122] ' onMouseUp={handleClick}>
           {
             show == true ? <IoIosArrowDown className='text-black text-[30px]' /> : <IoIosArrowUp className={` text-[30px]`} onMouseUp={handleChange} />
