@@ -163,7 +163,7 @@ const LenaAnderson = () => {
             </div>
             <div className='folder'>
               <Link to='/lenaEnjoysWineAndGoodTimes'>
-                <div className='imgs' style={{ backgroundImage: 'https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/%23covers/lena_enjoys_wine_and_good_time.png)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+                <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/%23covers/lena_enjoys_wine_and_good_time.png)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
 
                 </div></Link>
               <h3>lena enjoys wine and good times <span className='x'>x59</span></h3>
