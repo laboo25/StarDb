@@ -26,6 +26,7 @@ import ChristyWhite from './components/Stars/C/ChristyWhite.jsx';
 import JiaLissa from './components/Stars/J/JiaLissa.jsx';
 import LenaAnderson from './components/Stars/L/LenaAnderson.jsx'
 import LenaIsReadyToGo from './components/Stars/L/LenaAnderson/LenaIsReadyToGo.jsx';
+import LenaEnjoysWineAndGoodTimes from './components/Stars/L/LenaAnderson/LenaEnjoysWineAndGoodTimes.jsx';
 import Home from './components/Navbar/Home.jsx';
 
 
@@ -96,6 +97,10 @@ const router = createBrowserRouter([
       {
         path: "/lenaIsReadyToGo",
         element: <LenaIsReadyToGo />,
+      },
+      {
+        path: "/lenaEnjoysWineAndGoodTimes",
+        element: <LenaEnjoysWineAndGoodTimes />,
       },
  
   {

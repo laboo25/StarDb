@@ -1,11 +1,15 @@
-import React from 'react'
-import '../Navbar/Home.css'
-import { Link } from 'react-router-dom'
-import Navbar from './Navbar'
+import React, { useState } from 'react';
+import '../Navbar/Home.css';
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
+// import HomeData from './HomeData.jsx';
+
 const Home = () => {
+  
+
   return (
     <>
-      <div className=' w-full'>
+      <div className='w-full'>
         <Navbar />
         <div className="containerwr">
 
@@ -620,11 +624,8 @@ const Home = () => {
 
         </div>
       </div>
-    
-    
-    
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

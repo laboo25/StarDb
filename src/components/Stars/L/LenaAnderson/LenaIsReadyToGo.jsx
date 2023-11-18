@@ -34,7 +34,7 @@ const LenaIsReadyToGo = () => {
     <>
           <div>
                     <div className='p-5 pl-10'>
-                        <h3 className='text-[25px] text-[black] font-semibold font-sans'>Lena is ready to go <span className='text-[red]'>x81</span></h3>
+                        <h3 className='text-[25px] text-[black] font-semibold font-sans capitalize'>Lena is ready to go <span className='text-[red]'>x81</span></h3>
                     </div>
               <div className="row " style={{paddingTop: '30px', backgroundColor: '#f0f2f5'}}>
               

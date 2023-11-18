@@ -3,13 +3,15 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../../Navbar/Navbar'
 import SideBar from '../../Navbar/SideBar'
 import { Link } from 'react-router-dom';
-// import LenaIsReadyToGo from './LenaAnderson/LenaIsReadyToGo';
+import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 
 
 
 const LenaAnderson = () => {
 
   const [difference, setDifference] = useState();
+  const [show, setShow] = useState(false);
   useEffect(() => {
     // Access the data attribute inside the useEffect hook
     const currentDate = new Date();
@@ -35,7 +37,7 @@ const LenaAnderson = () => {
           item.style.width = '100%';
           item.style.height = 'auto';
           item.style.objectFit = 'contain';
-          
+
         } else if (item.naturalWidth < item.naturalHeight) {
           item.style.width = 'auto';
           item.style.height = '100%';
@@ -51,7 +53,7 @@ const LenaAnderson = () => {
     processImages();
   }, []);
 
-  
+
 
   // useEffect(()=>{
   //   setData(Alexa);
@@ -62,14 +64,20 @@ const LenaAnderson = () => {
   //   const filterData = Alexa.filter((item)=> item.title == itemData);
   //   setData(filterData);
   // }
- 
+  const handleChange = (e) => {
+    
+  }
+  const handleClick = () => {
+    setShow(!show);
+  };
+  
 
   return (
     <>
       <div>
         <Navbar />
         <div className='flex'>
-        {/* <div className="w-[180px] h-screen"></div> */}
+          {/* <div className="w-[180px] h-screen"></div> */}
           <SideBar />
           <div>
             <div className="banner">
@@ -77,7 +85,7 @@ const LenaAnderson = () => {
                 {/* <Link to='/App' className="homeBtn">Home</Link> */}
                 <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/lenaAnderson.jpg" alt="" />
               </div>
-              <div class="textBox">
+              <div className="textBox">
                 <h3>lena anderson</h3>
                 <p>
                   aliases: <span>blaire ivory, jordan west, sloan kendricks</span>
@@ -89,13 +97,13 @@ const LenaAnderson = () => {
                   birth date: <span>28-january-1998</span>
                 </p>
                 <p>
-                  age: <span id="age" data-year="1998-01-28"></span><span className="lowercase">y</span>
+                  age: <span id="age" data-year="1998-01-28">{difference}</span><span className="lowercase">y</span>
                 </p>
                 <p>
                   Profession: <span>Centerfold, Porn Star</span>
                 </p>
                 <p>
-                  career: <span>2016—<span class="common active">active</span></span>
+                  career: <span>2016—<span className="common active">active</span></span>
                 </p>
                 <p>
                   race: <span>white</span>
@@ -137,38 +145,384 @@ const LenaAnderson = () => {
             </div>
           </div>
         </div>
-        <div className='imgs-section'>
-          <div className='folders bg-[#ff2424] w-full h-full'>
-            <div className='folder w-full h-full '>
-                <Link to='/LenaIsReadyToGo'>
-                <div className='imgs w-[150px] h-[100px] bg-pink-400'>
+
+        <div className={ `imgs-section relative z-0 ${show == true ? 'h-full overflow-auto' : 'h-[182px] overflow-hidden after:absolute after:left-0 after:bottom-[-10px] after:content-[""] after:w-full after:h-[35px] after:bg-white after:z-[10]'}`}>
+        <button className=' w-10 h-10 text-black absolute right-[50%] bottom-[-5px] z-[122] ' onMouseUp={handleClick}>
+          {
+            show == true ? <IoIosArrowDown className='text-black text-[30px]' /> : <IoIosArrowUp className={` text-[30px]`} onMouseUp={handleChange} />
+
+          }
+        </button>
+          <div className='folders'>
+            <div className='folder'>
+              <Link to='/LenaIsReadyToGo'>
+                <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/hwxxx_lena_is_ready_to_let_go/lena_is_ready_to_let_go—01.jpg)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
 
                 </div></Link>
-                <h3>lena in ready to go</h3>
+              <h3>lena in ready to go <span className='x'>x81</span></h3>
             </div>
+            <div className='folder'>
+              <Link to='/lenaEnjoysWineAndGoodTimes'>
+                <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/hwxxx_lena_enjoys_wine_and_good_time/lena_enjoys_wine_and_good_time—01.jpg)',  backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+
+                </div></Link>
+              <h3>lena enjoys wine and good times <span className='x'>x59</span></h3>
+            </div>
+
           </div>
-          <div className='row'>
+
           
+        </div>
+        <div className="row">
+            {/* <!-- =================================face start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―01.jpg" data-fancybox="gallery" data-caption="face #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―02.jpg" data-fancybox="gallery" data-caption="face #2">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―02 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―03.jpg" data-fancybox="gallery" data-caption="face #3">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―03 mini.jpg" className="var" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―04.jpg" data-fancybox="gallery" data-caption="face #4">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―04 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―05.jpg" data-fancybox="gallery" data-caption="face #5">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―05 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―06.jpg" data-fancybox="gallery" data-caption="face #6">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―06 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―07.jpg" data-fancybox="gallery" data-caption="face #7">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―07 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―08.jpg" data-fancybox="gallery" data-caption="face #8">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―08 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―09.jpg" data-fancybox="gallery" data-caption="face #9">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―09 mini.jpg" />
+              </a>
+            </div>
+            {/* <!-- =================================face end======================== --> */}
+
+            {/* <!-- =================================feet start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―01.jpg" data-fancybox="gallery" data-caption="feet #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―02.jpg" data-fancybox="gallery" data-caption="feet #2">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―02 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―03.jpg" data-fancybox="gallery" data-caption="feet #3">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―03 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―04.jpg" data-fancybox="gallery" data-caption="feet #4">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―04 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―05.jpg" data-fancybox="gallery" data-caption="feet #5">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―05 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―06.jpg" data-fancybox="gallery" data-caption="feet #6">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―06 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―07.jpg" data-fancybox="gallery" data-caption="feet #7">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―07 mini.jpg" />
+              </a>
+            </div>
+
+            {/* <!-- =================================feet end======================== --> */}
+
+            {/* <!-- =================================mio start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―01.jpg" data-fancybox="gallery" data-caption="mio #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―02.jpg" data-fancybox="gallery" data-caption="mio #2">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―02 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―03.jpg" data-fancybox="gallery" data-caption="mio #3">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―03 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―04.jpg" data-fancybox="gallery" data-caption="back #4">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―04 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―05.jpg" data-fancybox="gallery" data-caption="back #5">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―05 mini.jpg" />
+              </a>
+            </div>
+
+            {/* <!-- =================================mio end======================== --> */}
+
+            {/* <!-- =================================front start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/front―01.jpg" data-fancybox="gallery" data-caption="front #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/front―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/front―02.jpg" data-fancybox="gallery" data-caption="front #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/front―02 mini.jpg" />
+              </a>
+            </div>
+
+            {/* <!-- =================================front end======================== --> */}
+
+            {/* <!-- =================================back start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/back―01.jpg" data-fancybox="gallery" data-caption="back #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/back―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/back―02.jpg" data-fancybox="gallery" data-caption="back #2">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/back―02 mini.jpg" />
+              </a>
+            </div>
+
+            {/* <!-- =================================back end======================== --> */}
+
+            {/* <!-- =================================boobs start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/boobs―01.jpg" data-fancybox="gallery" data-caption="boobs #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/boobs―01 mini.jpg" />
+              </a>
+            </div>
+            {/* <!-- <div className="column">
+            <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/boobs―02.jpg" data-fancybox="gallery" data-caption="boobs #2">
+              <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/boobs―02 mini.jpg" />
+            </a>
+        </div> --> */}
+            {/* <!-- <div className="column">
+            <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/boobs―03.jpg" data-fancybox="gallery" data-caption="boobs #3">
+              <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/boobs―03 mini.jpg" />
+            </a>
+        </div> --> */}
+            {/* <!-- =================================boobs end======================== --> */}
+
+
+
+            {/* <!-- =================================assPussy start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―01.jpg" data-fancybox="gallery" data-caption="pussy #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―02.jpg" data-fancybox="gallery" data-caption="pussy #2">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―02 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―03.jpg" data-fancybox="gallery" data-caption="pussy #3">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―03 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―04.jpg" data-fancybox="gallery" data-caption="pussy #4">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussy―04 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―01.jpg" data-fancybox="gallery" data-caption="pussyAss #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―02.jpg" data-fancybox="gallery" data-caption="pussyAss #2">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―02 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―03.jpg" data-fancybox="gallery" data-caption="pussyAss #3">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―03 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―04.jpg" data-fancybox="gallery" data-caption="pussyAss #4">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―04 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―05.jpg" data-fancybox="gallery" data-caption="pussyAss #5">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/pussyAss―05 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/assHole―01.jpg" data-fancybox="gallery" data-caption="assHole #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/assHole―01 mini.jpg" />
+              </a>
+            </div>
+
+            {/* <!-- =================================assPussy end======================== --> */}
+
+            {/* <!-- =================================toy start======================== --> */}
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―01.jpg" data-fancybox="gallery" data-caption="toy #1">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―01 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―02.jpg" data-fancybox="gallery" data-caption="toy #2">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―02 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―03.jpg" data-fancybox="gallery" data-caption="toy #3">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―03 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―04.jpg" data-fancybox="gallery" data-caption="toy #4">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―04 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―05.jpg" data-fancybox="gallery" data-caption="toy #5">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―05 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―06.jpg" data-fancybox="gallery" data-caption="toy #6">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―06 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―07.jpg" data-fancybox="gallery" data-caption="toy #7">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―07 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―08.jpg" data-fancybox="gallery" data-caption="toy #8">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―08 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―09.jpg" data-fancybox="gallery" data-caption="toy #9">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―09 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―10.jpg" data-fancybox="gallery" data-caption="toy #10">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―10 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―11.jpg" data-fancybox="gallery" data-caption="toy #11">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―11 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―12.jpg" data-fancybox="gallery" data-caption="toy #12">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―12 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―13.jpg" data-fancybox="gallery" data-caption="toy #13">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―13 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―14.jpg" data-fancybox="gallery" data-caption="toy #14">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―14 mini.jpg" />
+              </a>
+            </div>
+
+            <div className="column">
+              <a href="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―15.jpg" data-fancybox="gallery" data-caption="toy #15">
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/toy―15 mini.jpg" />
+              </a>
+            </div>
+
+            {/* <!-- =================================toy end======================== --> */}
+
+
+
+
+
+
+
           </div>
-        </div>
         <div>
-        {/* <div className="App">
-      <div className="galleryWrapper">
-        <div className="filterItem">
-          <ul>
-            <li><button onClick={()=> setData(Alexa)}>All</button></li>
-            {
-              collection.map((item)=> <li><button onClick={()=>{gallery_filter(item)}}>{item}</button></li>)
-            }
-          </ul>
-        </div>
-        <div className="galleryContainer">
-          {
-            data.map((item)=> <div  key={item.id} className="galleryItem"><img src={item.image  } /></div> )
-          }
-        </div>
-      </div>
-    </div> */}
+
         </div>
       </div>
     </>
