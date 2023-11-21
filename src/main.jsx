@@ -29,6 +29,8 @@ import LenaIsReadyToGo from './components/Stars/L/LenaAnderson/LenaIsReadyToGo.j
 import LenaEnjoysWineAndGoodTimes from './components/Stars/L/LenaAnderson/LenaEnjoysWineAndGoodTimes.jsx';
 import Home from './components/Navbar/Home.jsx';
 import LiyaSilver from './components/Stars/L/LiyaSilver.jsx';
+import GetCozy from './components/Stars/L/LenaAnderson/GetCozy.jsx';
+import WeAllDoIt from './components/Stars/L/LenaAnderson/WeAllDoIt.jsx';
 
 
 
@@ -96,11 +98,19 @@ const router = createBrowserRouter([
     element: <LenaAnderson />,
   },
       {
-        path: "/lenaIsReadyToGo",
+        path: "/we-all-do-it",
+        element: <WeAllDoIt />,
+      },
+      {
+        path: "/get-cozy",
+        element: <GetCozy />,
+      },
+      {
+        path: "/lena-is-ready-to-let-go",
         element: <LenaIsReadyToGo />,
       },
       {
-        path: "/lenaEnjoysWineAndGoodTimes",
+        path: "/lena-enjoys-wine-and-good-times",
         element: <LenaEnjoysWineAndGoodTimes />,
       },
   {
