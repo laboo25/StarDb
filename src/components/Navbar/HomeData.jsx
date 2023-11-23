@@ -326,8 +326,8 @@ export const HomeData = [
         title:"melena maria rya",
         to: '/melenaMariaRya',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melenaMariaRya—index.jpg",
-        color: 'hotpink',
-        txtcolor: 'white',
+        color: 'white',
+        txtcolor: 'black',
     },
     // {
     //     id:41,
