@@ -12,10 +12,17 @@
 body {
   background-color: #f0f2f5;
 }
+.filters {
+  width: 100%;
+  padding: 10px 40px;
+  background-color: #ff69b4;
+  display: flex;
+  justify-content: space-between;
+}
 .containerwr {
   width: 100%;
   padding: 10px 25px;
-  margin: 70px 0;
+  margin: 20px 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-column-gap: 20px;

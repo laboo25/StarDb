@@ -1,78 +1,87 @@
 import React, { useEffect, useState } from 'react';
 import '../Navbar/Home.css';
-import {  Link, } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
-// import HomeData from './HomeData'
-import {HomeData} from "/src/components/Navbar/HomeData.jsx";
+import { HomeData } from "/src/components/Navbar/HomeData.jsx";
 
 const Home = () => {
+  const [filteredData, setFilteredData] = useState([]);
+  const [filters, setFilters] = useState({ search: '' });
+  const [sortOrder, setSortOrder] = useState('asc');
+  const [sortProperty, setSortProperty] = useState('title');
 
-  const [data, setData] = useState([]);
-  const [collection, setCollection] = useState([]);
+  const handleFilterChange = (event) => {
+    const { name, value } = event.target;
+    setFilters({ ...filters, [name]: value });
+  };
 
-  // useEffect to set initial data and collection
-  
+  const toggleSortOrder = () => {
+    setSortOrder((prevOrder) => (prevOrder === 'asc' ? 'desc' : 'asc'));
+  };
+
+  const handleSortPropertyChange = (event) => {
+    setSortProperty(event.target.value);
+  };
+
   useEffect(() => {
-    // Set initial data and collection
-    setData([...HomeData].sort((a, b) => a.title.localeCompare(b.title)));
-    setCollection([...new Set(HomeData.map((item) => item.title))]);
-  }, []);
-  // Filter functions based on different criteria
-  const gallery_filter = (itemData) => {
-    const filterData = HomeData.filter((item) => item.title === itemData);
-    setData(filterData);
-  };
-  const linkTo = (item) => {
-    const filterData = HomeData.filter((item) => item.to === item);
-    setData(filterData);
-  };
+    // Sort data based on the selected property and order
+    const sortedData = [...HomeData].sort((a, b) => {
+      const order = sortOrder === 'asc' ? 1 : -1;
+      return order * a[sortProperty].localeCompare(b[sortProperty]);
+    });
+    setFilteredData(sortedData);
+  }, [sortProperty, sortOrder]);
 
-  const colour = (item) => {
-    const filterData = HomeData.filter((item) => item.color === item);
-    setData(filterData);
-  };
+  useEffect(() => {
+    // Filter data based on search input
+    const updatedFilteredData = HomeData.filter((item) =>
+      item.title.toLowerCase().includes(filters.search.toLowerCase())
+    );
+    setFilteredData(updatedFilteredData);
+  }, [filters.search]);
 
-  const txtcolour = (item) => {
-    const filterData = HomeData.filter((item) => item.txtcolor === item);
-    setData(filterData);
-  };
+  const renderItems = (item) => (
+    <div className="cards" key={item.id} style={{ backgroundColor: item.color }}>
+      <div className="bg">
+        <Link to={item.to}>
+          <div className="imgs">
+            <img src={item.image} alt={item.title} />
+          </div>
+        </Link>
+      </div>
+      <h6 style={{ color: item.txtcolor }}>{item.title}</h6>
+    </div>
+  );
 
-  const image = (item) => {
-    const filterData = HomeData.filter((item) => item.image === item);
-    setData(filterData);
-  };
-  
   return (
     <>
       <div className='w-full'>
         <Navbar />
-        {/* <div className="filterItem">
-          <ul>
-            <li>
-              <button onClick={() => setData(HomeData)}>All</button>
-            </li>
-            {collection.map((item) => (
-              <li key={item}>
-                <button onClick={() => gallery_filter(item)}>{item}</button>
-              </li>
-            ))}
-          </ul>
-        </div> */}
+        <div className="filters">
+          <label>
+            <input
+              type="text"
+              name="search"
+              value={filters.search}
+              onChange={handleFilterChange}
+              placeholder="Search by name"
+              className="search bg-transparent placeholder:text-[#0000007e] border-b-2 border-black outline-none"
+            />
+          </label>
+
+          <label>
+            Sort by:
+            <select value={sortProperty} onChange={handleSortPropertyChange} className="sort bg-transparent border-b-2 border-black">
+              <option value="title" default >Title</option>
+              <option value="color">Color</option>
+              {/* Add more options based on your data properties */}
+            </select>
+          </label>
+
+          <button className="sortbtn font-semibold text-[20px]" onClick={toggleSortOrder}>⇃↾</button>
+        </div>
         <div className="containerwr">
-
-          {data.map((item) => (
-            <div className="cards" key={item.id} style={{ backgroundColor: item.color }}>
-              <div className="bg">
-                <Link to={item.to}>
-                  <div className="imgs">
-                    <img src={item.image} alt={item.title} />
-                  </div>
-                </Link>
-              </div>
-              <h6 style={{ color: item.txtcolor }}>{item.title}</h6>
-            </div>
-          ))}
-
+          {filteredData.map(renderItems)}
         </div>
       </div>
     </>
