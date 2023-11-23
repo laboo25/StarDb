@@ -116,6 +116,17 @@ body {
   }
 }
 @media screen and (max-width: 375px) {
+
+  .filters {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    display: flex;
+    justify-content: space-between;
+  }
+  .filters input {
+    width: 125px;
+  }
   .mainNav {
     display: none !important;
   }
