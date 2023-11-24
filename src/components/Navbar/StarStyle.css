@@ -149,6 +149,7 @@
     padding-top: 20px;
     scroll-behavior: smooth;
     scrollbar-width: none;
+    overflow: hidden;
   }
   .folders {
     width: 100%;
@@ -180,6 +181,28 @@
     color: red;
     font-weight: 600;
   }
+
+  .filterItem {
+    width: 100%;
+    height: auto;
+  }
+  .filterItem ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  .filterItem ul li {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-family: inter-m;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+    transition: all 0.5s linear;
+    background-color: #ee0979;
+  }
   /*   arrow css fancy */
     .is-prev, .is-next {
       padding: 200px 0 !important;
@@ -204,8 +227,10 @@
     justify-content: center;
     justify-self: center;
   }
-
- 
+ .row .column a {
+    width: inherit;
+    height: inherit;
+ }
   
   
                   /* media query */

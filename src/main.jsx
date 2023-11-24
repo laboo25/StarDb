@@ -33,6 +33,13 @@ import GetCozy from './components/Stars/L/LenaAnderson/GetCozy.jsx';
 import WeAllDoIt from './components/Stars/L/LenaAnderson/WeAllDoIt.jsx';
 
 
+import SophiaLeone from './components/Stars/S/SophiaLeone.jsx';
+import Spray from './components/Folders/Spray.jsx';
+
+
+
+
+
 
 
     
@@ -53,7 +60,7 @@ Fancybox.bind('[data-fancybox="gallery"]', {
         "flipX",
         "flipY",
       ],
-      right: ["slideshow", "fullscreen", "thumbs", "close"],
+      right: ["slideshow", "fullscreen", "thumbs", "download", "close"],
     },
   },
 }); 
@@ -122,6 +129,14 @@ const router = createBrowserRouter([
     path: "/milaAzul",
     element: <MilaAzul />,
   },
+  {
+    path: "/sophia-leone",
+    element: <SophiaLeone />,
+  },
+      {
+        path: "/spray",
+        element: <Spray/>
+      },
   {
     path: "/tiffanyTatum",
     element: <TiffanyTatum />,

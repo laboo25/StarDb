@@ -19,46 +19,10 @@ const JiaLissa = () => {
     console.log(yearDiffernce);
     setDifference(yearDiffernce);
 
-    // You can perform other operations with the dataYear value here
-  }, []);
-
-  useEffect(() => {
-    const processImages = () => {
-      const images = document.querySelectorAll('.column img');
-      const arr = Array.from(images);
-
-      arr.forEach((item) => {
-        if (item.naturalWidth > item.naturalHeight) {
-          item.style.width = '100%';
-          item.style.height = 'auto';
-          item.style.objectFit = 'contain';
-          
-        } else if (item.naturalWidth < item.naturalHeight) {
-          item.style.width = 'auto';
-          item.style.height = '100%';
-          item.style.objectFit = 'contain';
-        } else {
-          item.style.width = '100%';
-          item.style.height = '100%';
-          item.style.objectFit = 'contain';
-        }
-      });
-    };
-
-    processImages();
   }, []);
 
   
 
-  // useEffect(()=>{
-  //   setData(Alexa);
-  //   setCollection([... new Set(Alexa.map((item)=> item.title))])
-  // },[]) 
-
-  // const gallery_filter = (itemData) =>{
-  //   const filterData = Alexa.filter((item)=> item.title == itemData);
-  //   setData(filterData);
-  // }
  
 
   return (
