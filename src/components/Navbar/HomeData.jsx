@@ -450,5 +450,13 @@ export const HomeData = [
     //     color: 'hotpink',
     //     txtcolor: 'white',
     // },
+    {
+    id: uuidv4();
+    title: 'armani black';
+    to: '/armani-black';
+    image: 'https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/armaniBlack%E2%80%94index.webp';
+    color: 'white';
+    txtcolor: 'black';
+},
 
 ]
