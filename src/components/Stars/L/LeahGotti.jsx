@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import '../../Navbar/StarStyle.css'
 import Navbar from '../../Navbar/Navbar'
 import SideBar from '../../Navbar/SideBar'
-
+import { IoIosArrowUp } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
 const LeahGotti = () => {
-
+  const [show, setShow] = useState(false);
   const [difference, setDifference] = useState();
   useEffect(() => {
     // Access the data attribute inside the useEffect hook
@@ -60,7 +61,12 @@ const LeahGotti = () => {
   //   const filterData = Alexa.filter((item)=> item.title == itemData);
   //   setData(filterData);
   // }
- 
+  const handleChange = (e) => {
+
+  }
+  const handleClick = () => {
+    setShow(!show);
+  };
 
   return (
     <>
@@ -136,6 +142,30 @@ const LeahGotti = () => {
             </div>
           </div>
         </div>
+        {/* ===========FOLDER SCETION===== */}
+        <div className={`imgs-section bg-orange-500 relative z-0 ${show == true ? 'h-full overflow-auto' : 'h-[182px] overflow-hidden after:absolute after:left-0 after:bottom-[-10px] after:content-[""] after:w-full after:h-[35px] after:bg-white after:opacity-0 after:z-[10]'}`}>
+          <button className=' w-10 h-10 text-black absolute right-[50%] bottom-[-5px] z-[122] ' onMouseUp={handleClick}>
+            {
+              show == true ? <IoIosArrowDown className='text-black text-[30px]' /> : <IoIosArrowUp className={` text-[30px]`} onMouseUp={handleChange} />
+
+            }
+          </button>
+          <div className='folders'>
+
+
+
+                  <div className='folder'>
+                        <Link to='/score'>
+                              <div className='imgs' style={{ backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/btv/slayed/score/score—01.webp)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+                              </div>
+                        </Link>
+                        <h3> <span>x82</span></h3>
+                  </div>
+
+                  
+
+          </div>
+        </div>  {/* ===========FOLDER SCETION END===== */}
         <div>
         {/* <div className="App">
       <div className="galleryWrapper">

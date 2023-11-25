@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-export const ImageData = [
+export const imageData = [
     {
         id: uuidv4(),
         title:"SLAYED  ● score ● LEAH GOTTI & KYLIE ROCKET",

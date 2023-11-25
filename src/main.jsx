@@ -41,6 +41,7 @@ import AugustAmes from './components/Stars/A/AugustAmes.jsx';
 import AveryCristy from './components/Stars/A/AveryCristy.jsx';
 import CaseyCalvert from './components/Stars/C/CaseyCalvert.jsx';
 import CharlieRed from './components/Stars/C/CharlieRed.jsx';
+import Score from './components/Folders/Score.jsx';
 
 
 
@@ -167,6 +168,10 @@ const router = createBrowserRouter([
       {
         path: "/spray",
         element: <Spray/>
+      },
+      {
+        path: "/score",
+        element: <Score/>
       },
   {
     path: "/tiffanyTatum",
