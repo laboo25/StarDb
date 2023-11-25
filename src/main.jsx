@@ -35,6 +35,13 @@ import WeAllDoIt from './components/Stars/L/LenaAnderson/WeAllDoIt.jsx';
 
 import SophiaLeone from './components/Stars/S/SophiaLeone.jsx';
 import Spray from './components/Folders/Spray.jsx';
+import LeahGotti from './components/Stars/L/LeahGotti.jsx';
+import ArianaMarie from './components/Stars/A/ArianaMarie.jsx';
+import AugustAmes from './components/Stars/A/AugustAmes.jsx';
+import AveryCristy from './components/Stars/A/AveryCristy.jsx';
+import CaseyCalvert from './components/Stars/C/CaseyCalvert.jsx';
+import CharlieRed from './components/Stars/C/CharlieRed.jsx';
+
 
 
 
@@ -85,8 +92,28 @@ const router = createBrowserRouter([
     element: <AlexaGrace />,
   },
   {
-    path: "/bellaRolland",
+    path: '/ariana-marie',
+    element: <ArianaMarie />,
+  },
+  {
+    path: '/august-ames',
+    element: <AugustAmes />,
+  },
+  {
+    path: '/avery-cristy',
+    element: <AveryCristy />,
+  },
+  {
+    path: "/bella-rolland",
     element: <BellaRolland />,
+  },
+  {
+    path: '/casey-calvert',
+    element: <CaseyCalvert />,
+  },
+  {
+    path: '/charlie-red',
+    element: <CharlieRed />,
   },
   {
     path: "/christyWhite",
@@ -99,6 +126,10 @@ const router = createBrowserRouter([
   {
     path: "/jiaLissa",
     element: <JiaLissa />,
+  },
+  {
+    path: '/leah-gotti',
+    element: <LeahGotti />,
   },
   {
     path: "/lenaAnderson",

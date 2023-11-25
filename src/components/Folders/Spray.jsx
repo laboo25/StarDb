@@ -6,22 +6,24 @@ const Spray = () => {
 
     const [data, setData] = useState([]);
   const [collection, setCollection] = useState([]);
-//   const [selectedCategories, setSelectedCategories] = useState([]);
+  // const [selectedCategories, setSelectedCategories] = useState([]);
   
 
   
 
-  
-  // useEffect(() => {
-  //   setData(imageData);
-  //   setCollection([...new Set(imageData.map((item) => item.catagory))]);
-  // }, []);
+
 
   
-  // const gallery_filter = (itemData) => {
-  //   const filterData = imageData.filter((item) => item.catagory === itemData);
-  //   setData(filterData);
-  // };
+  useEffect(() => {
+    setData(imageData);
+    setCollection([...new Set(imageData.map((item) => item.catagory))]);
+  }, []);
+
+  
+  const gallery_filter = (itemData) => {
+    const filterData = imageData.filter((item) => item.catagory === itemData);
+    setData(filterData);
+  };
 
   
   
@@ -44,8 +46,8 @@ const handleAll = () => {
     <>
           <div>
                     <div className='p-5 pl-10'>
-                        <h3 className='text-[25px] text-[black] font-semibold font-sans capitalize'>
-                          <span className='text-[red]'>x45</span></h3>
+                        <h3 className='text-[25px] text-[black] font-semibold font-sans capitalize'>Spray
+                          <span className='text-[red]'>x82</span></h3>
                     </div>
               <div>
           {/* <div className="filterItem">

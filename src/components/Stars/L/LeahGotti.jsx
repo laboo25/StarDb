@@ -5,7 +5,7 @@ import SideBar from '../../Navbar/SideBar'
 
 
 
-const CaseyCalvert = () => {
+const LeahGotti = () => {
 
   const [difference, setDifference] = useState();
   useEffect(() => {
@@ -73,60 +73,64 @@ const CaseyCalvert = () => {
             <div class="banner">
               <div class="image">
                 {/* <Link to='/App' className="homeBtn">Home</Link> */}
-                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/caseyCalvert.jpg" alt="" />
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/leahGotti.jpg" alt="" />
               </div>
-              <div className="textBox">
-                <h3>casey Calvert</h3>
+              <div class="textBox">
+                <h3>leah gotti</h3>
                 <p>
-                    aliases: <span>Sister Casey; Sarah Michelle Goldberg</span>
+                    Birth name: <span>fiona</span>
                 </p>
                 <p>
-                    birth place: <span>Maryland, US</span>
+                    real name: <span>Raegan Leah Brogdon</span>
                 </p>
                 <p>
-                    birth date: <span>17—march—1990</span>
+                    birth place: <span>texas, us</span>
                 </p>
                 <p>
-                    age: <span id="age" data-year="1990-3-17">{difference}</span><span className="lowercase">y</span>
+                    birth date: <span>04―October―1997</span>
                 </p>
                 <p>
-                    Profession: <span>Porn Star</span>
+                    age: <span id="age" data-year="1997-10-4">{difference}</span><span className="lowercase">y</span>
                 </p>
                 <p>
-                    career: <span>2012—<span className="common active">active</span></span>
+                    Profession: <span>Adult Model, Porn Star</span>
                 </p>
                 <p>
-                    race: <span>caucasian</span>
+                    career: <span>2015―<span class="common active">active</span></span>
+                </p>
+                <p>
+                    race: <span>white</span>
                 </p>
                 <p>
                     boobs: <span>natural</span>
                 </p>
                 <p>
-                    measurements: <span>34B―25―34</span>
+                    measurements: <span>34C―22―32</span>
                 </p>
                 <p>
-                    hair color: <span>Black</span>
+                    hair color: <span>Brown</span>
                 </p>
                 <p>
-                    eye color: <span>brown</span>
+                    eye color: <span>Green</span>
                 </p>
                 <p>
-                    shoe size: <span>37 eu</span>
+                    shoe size: <span>36 eu</span>
                 </p>
                 <p>
-                    height: <span>5'4" [162 cm]</span>
+                    height: <span>5'2" [157 Cm]</span>
                 </p>
                 <p>
-                    piercings: <span>no</span>
+                    piercings: <span>navel</span>
                 </p>
                 <p>
-                    tattoos: <span>Very small shamrock on her back</span>
+                    tattoos: <span>Has a tattoo with a ribbon on her left torso from the Bible of Proverbs "31:25"</span>
                 </p>
                 <p>
                     pubic hair: <span>no</span>
                 </p>
+
                 <p>
-                    abaility: <span>anal, bondage, DP, gangbang</span>
+                    Special Performance: <span>anal</span>
                 </p>
             </div>
             </div>
@@ -156,4 +160,4 @@ const CaseyCalvert = () => {
   )
 }
 
-export default CaseyCalvert
+export default LeahGotti

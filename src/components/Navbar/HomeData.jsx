@@ -10,6 +10,7 @@ export const HomeData = [
         color: 'white',
         txtcolor: 'black',
     },
+    
     {
         id: uuidv4(),
         title:"alexa grace",
@@ -21,15 +22,23 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"ariana Marie",
-        to: '/arianaMarie',
+        to: '/ariana-marie',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/arianaMarie—index.jpg",
         color: 'white',
         txtcolor: 'black',
     },
     {
         id: uuidv4(),
+        title:"armani black",
+        to: '/armani-black',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/armaniBlack—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"august Ames",
-        to: '/augustAmes',
+        to: '/august-ames',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/augustAmes—index.jpg",
         color: 'white',
         txtcolor: 'black',
@@ -37,7 +46,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"avery cristy",
-        to: '/averyCristy',
+        to: '/avery-cristy',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/averyCristy—index.jpg",
         color: 'white',
         txtcolor: 'black',
@@ -45,7 +54,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"bella rolland",
-        to: '/bellaRolland',
+        to: '/bella-rolland',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/bellaRolland—index.jpg",
         color: 'white',
         txtcolor: 'black',
@@ -53,7 +62,7 @@ export const HomeData = [
     // {
     //     id: uuidv4(),
     //     title:"blake eden",
-    //     to: '/blakeEden',
+    //     to: '/blake-cden',
     //     image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/blakeEden—index.jpg",
     //     color: 'hotpink',
         // txtcolor: 'white',
@@ -61,7 +70,7 @@ export const HomeData = [
     // {
     //     id: uuidv4(),
     //     title:"bunny colby",
-    //     to: '/bunnyColby',
+    //     to: '/bunny-colby',
     //     image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/bunnyColby—index.jpg",
     //     color: 'hotpink',
         // txtcolor: 'white',
@@ -69,7 +78,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"casey calvert",
-        to: '/caseyCalvert',
+        to: '/casey-calvert',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/caseyCalvert—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
@@ -77,7 +86,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"charlie red",
-        to: '/charlieRed',
+        to: '/charlie-red',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/charlieRed—index.jpg",
         color: 'white',
         txtcolor: 'black',
@@ -277,7 +286,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"leah gotti",
-        to: '/leahGotti',
+        to: '/leah-gotti',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/leahGotti—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
@@ -450,13 +459,5 @@ export const HomeData = [
     //     color: 'hotpink',
     //     txtcolor: 'white',
     // },
-    {
-    id: uuidv4();
-    title: 'armani black';
-    to: '/armani-black';
-    image: 'https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/armaniBlack%E2%80%94index.webp';
-    color: 'white';
-    txtcolor: 'black';
-},
 
 ]
