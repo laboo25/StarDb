@@ -427,6 +427,14 @@ export const HomeData = [
         color: 'hotpink',
         txtcolor: 'white',
     },
+    {
+        id: uuidv4(),
+        title:"sydney cole",
+        to: '/sydney-cole',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sydneyCole—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
     // {
     //     id: uuidv4(),
     //     title:"sybil",
