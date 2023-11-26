@@ -339,14 +339,14 @@ export const HomeData = [
         color: 'hotpink',
         txtcolor: 'white',
     },
-    // {
-    //     id: uuidv4(),
-    //     title:"melody marks",
-    //     to: '/melody-marks',
-    //     image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melodyMarks—index.jpg",
-    //     color: 'hotpink',
-    //     txtcolor: 'white',
-    // },
+    {
+        id: uuidv4(),
+        title:"melody marks",
+        to: '/melody-marks',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melodyMarks—index.jpg",
+        color: 'hotpink',
+        txtcolor: 'white',
+    },
     {
         id: uuidv4(),
         title:"mila azul",

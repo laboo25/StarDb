@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Preloader from './Preeloader';
-import Preloader from './FullScreen';
 import './App.css'
 import Home from './components/Navbar/Home'
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
@@ -25,7 +24,7 @@ function App() {
         ) : (
           <div title='content'>
             
-            <FullScreenComponent />
+
             <Home />
 
 
