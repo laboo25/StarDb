@@ -8,7 +8,7 @@ const Preloader = () => {
 
 
   return (
-    <div className="preloader flex justify-center items-center h-screen" style={{backgroundImage: 'url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/mio―01.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
+    <div className="preloader flex justify-center items-center h-screen">
       
             {/*  <ClipLoader color="red" loading={true} css={override} size={150} /> */}
     </div>
