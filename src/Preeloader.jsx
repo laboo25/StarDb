@@ -10,7 +10,11 @@ const override = css`
 
 const Preloader = () => {
   return (
-    <div className="preloader flex justify-center items-center h-screen" style={{backgroundImage: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sydneyCole.jpg, backgroundSize: "cover", backgroundPosition: "center"}}>
+    <div className="preloader flex justify-center items-center h-screen" style={{
+  backgroundImage: "url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sydneyCole.jpg)",
+  backgroundSize: "cover",
+  backgroundPosition: "center"
+}}>
 {/*       <ClipLoader color="red" loading={true} css={override} size={150} /> */}
     </div>
   );
