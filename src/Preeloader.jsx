@@ -29,7 +29,7 @@ const Preloader = () => {
     <div className="preloader flex justify-center items-center h-screen">
       {isMobile ? (
         <div className='w-full h-screen' style={{
-  backgroundImage: "url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sophiaLeone.jpg)",
+  backgroundImage: "url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/abellaDanger.jpg)",
   backgroundSize: "cover",
   backgroundPosition: "center"
 }}></div>
