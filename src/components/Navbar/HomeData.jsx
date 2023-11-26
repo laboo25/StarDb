@@ -333,19 +333,11 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
-        title:"madi collins",
-        to: '/madi-collins',
-        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/madiCollins—index.jpg",
-        color: 'white',
-        txtcolor: 'black',
-    },
-    {
-        id: uuidv4(),
         title:"melena maria rya",
         to: '/melenaMariaRya',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melenaMariaRya—index.jpg",
-        color: 'white',
-        txtcolor: 'black',
+        color: 'hotpink',
+        txtcolor: 'white',
     },
     {
         id: uuidv4(),
@@ -434,14 +426,6 @@ export const HomeData = [
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/stacyCruz—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
-    },
-    {
-        id: uuidv4(),
-        title:"sydney cole",
-        to: '/sydney-cole',
-        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sydneyCole.jpg",
-        color: 'white',
-        txtcolor: 'black',
     },
     {
         id: uuidv4(),
