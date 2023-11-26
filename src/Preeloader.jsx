@@ -26,14 +26,10 @@ const MyComponent = () => {
 
 const Preloader = () => {
   return (
-    <div className="preloader flex justify-center items-center h-screen" style={{
-  backgroundImage: "url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sydneyCole.jpg)",
-  backgroundSize: "cover",
-  backgroundPosition: "center"
-}}>
+    <div className="preloader flex justify-center items-center h-screen">
       {isMobile ? (
         <div className='w-full h-screen' style={{
-  backgroundImage: "url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sydneyCole.jpg)",
+  backgroundImage: "url(https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/sophiaLeone.jpg)",
   backgroundSize: "cover",
   backgroundPosition: "center"
 }}></div>
