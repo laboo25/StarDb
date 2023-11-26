@@ -12,6 +12,11 @@
 body {
   background-color: #f0f2f5;
 }
+.preloader {
+  background: url('https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―01.jpg');
+  background-size: 'cover';
+  background-position: 'center';
+}
 .filters {
   width: 100%;
   padding: 10px 40px;
@@ -116,6 +121,11 @@ body {
   }
 }
 @media screen and (max-width: 375px) {
+  .preloader {
+  background: url('https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/btv/slayed/score/score—13.jpg');
+  background-size: 'cover';
+  background-position: 'center';
+}
 
   .filters {
     width: 100%;
