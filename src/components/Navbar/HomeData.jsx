@@ -237,9 +237,17 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
-        title:"jillKassidy",
+        title:"jill kassidy",
         to: '/jordanJackson',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/jillKassidy—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
+        title:"katrina colt",
+        to: '/katrina-colt',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/katrinaColt—index.jpg",
         color: 'white',
         txtcolor: 'black',
     },
@@ -325,6 +333,14 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"lottie magne",
+        to: '/lottie-magne',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lottieMagne—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"maddy may",
         to: '/maddyMay',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/maddyMay—index.jpg",
@@ -378,6 +394,14 @@ export const HomeData = [
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/naomiSwann—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
+    },
+    {
+        id: uuidv4(),
+        title:"oxana chic",
+        to: '/oxana-chic',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/oxanaChic—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
     },
     {
         id: uuidv4(),
