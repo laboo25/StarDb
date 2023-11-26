@@ -349,9 +349,9 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
-        title:"melody marksy",
-        to: '/melodyMarksy',
-        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melodyMarksy—index.jpg",
+        title:"melody marks",
+        to: '/melody-marks',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/melodyMarks—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
     },
