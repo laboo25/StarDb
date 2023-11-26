@@ -11,7 +11,7 @@ const override = css`
 const Preloader = () => {
   return (
     <div className="preloader flex justify-center items-center h-screen">
-      <ClipLoader color="#36D7B7" loading={true} css={override} size={150} />
+      <ClipLoader color="red" loading={true} css={override} size={150} />
     </div>
   );
 };
