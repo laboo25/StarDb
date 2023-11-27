@@ -76,21 +76,21 @@ const Home = () => {
 
   const renderPagination = () => {
     const pageNumbers = [];
-
+  
     for (let i = 1; i <= Math.ceil(filteredData.length / itemsPerPage); i++) {
       pageNumbers.push(i);
     }
 
     return (
       <ul className="pagination w-full p-[10px] flex justify-center">
-        {pageNumbers.map(number => (
-          <li key={number} className={`page-item ${number === currentPage ? 'active' : ''} m-2 px-2 py-1 bg-sky-400 rounded`}>
-            <button onClick={() => paginate(number)} className="page-link">
-              {number}
-            </button>
-          </li>
-        ))}
-      </ul>
+      {pageNumbers.map(number => (
+        <li key={number} className={`page-item m-2 px-2 py-1 rounded ${number === currentPage ? 'active' : ''}`}>
+          <button onClick={() => paginate(number)} className="page-link">
+            {number}
+          </button>
+        </li>
+      ))}
+    </ul>
     );
   };
 
