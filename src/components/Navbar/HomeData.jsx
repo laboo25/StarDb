@@ -166,6 +166,15 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"emelie crystal",
+        aliases: ['Emelie Devot', 'Emilie Crystal'],
+        to: '/emelie-crystal',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/emelieCrystal—index.jpg",
+        color: 'hotpink',
+        txtcolor: 'white',
+    },
+    {
+        id: uuidv4(),
         title:"emily willis",
         aliases: ['Litzy Lara Bañuelos'],
         to: '/emilyWillis',
