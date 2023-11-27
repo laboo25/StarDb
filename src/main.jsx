@@ -42,6 +42,8 @@ import AveryCristy from './components/Stars/A/AveryCristy.jsx';
 import CaseyCalvert from './components/Stars/C/CaseyCalvert.jsx';
 import CharlieRed from './components/Stars/C/CharlieRed.jsx';
 import Score from './components/Folders/Score.jsx';
+import OxanaChic from './components/Stars/O/OxanaChic.jsx';
+import LottieMagne from './components/Stars/L/LottieMagne.jsx';
 
 
 
@@ -153,6 +155,10 @@ const router = createBrowserRouter([
         element: <LenaEnjoysWineAndGoodTimes />,
       },
   {
+    path: "/lottie-magne",
+    element: <LottieMagne />,
+  },
+  {
     path: "/liyaSilver",
     element: <LiyaSilver />,
   },
@@ -160,6 +166,10 @@ const router = createBrowserRouter([
   {
     path: "/milaAzul",
     element: <MilaAzul />,
+  },
+  {
+    path: "/oxana-chic",
+    element: <OxanaChic />,
   },
   {
     path: "/sophia-leone",
