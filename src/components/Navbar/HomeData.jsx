@@ -5,15 +5,25 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"abella danger",
+        aliases: ['Bella Danger', 'Bella Manriquez', 'Bella Mevzinsky', 'Isabella Danger'],
         to: '/abellaDanger',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/abellaDanger—index.jpg",
         color: 'white',
         txtcolor: 'black',
     },
-    
+    {
+        id: uuidv4(),
+        title:"alecia fox",
+        aliases: ['Arya', 'Alicia Fox', 'Rita Mochalkina', 'Alecia', 'Lissa, Aljona'],
+        to: '/alecia-fox',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/aleciaFox—index.jpg",
+        color: 'hotpink',
+        txtcolor: 'white',
+    },
     {
         id: uuidv4(),
         title:"alexa grace",
+        aliases: ['Alexa of Nyce', 'Meghan Marie', 'Renee Marie'],
         to: '/alexaGrace',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/alexaGrace—index.jpg",
         color: 'hotpink',
@@ -21,7 +31,17 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"alicia williams",
+        aliases: ['Alicia Willia', 'Victoria'],
+        to: '/alecia-williams',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/aliciaWilliams—index.jpg",
+        color: 'hotpink',
+        txtcolor: 'white',
+    },
+    {
+        id: uuidv4(),
         title:"ariana Marie",
+        // aliases: ['Ariana Marie', 'Ariana'],
         to: '/ariana-marie',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/arianaMarie—index.jpg",
         color: 'white',
@@ -30,6 +50,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"armani black",
+        // aliases: ['Armani Black', 'Armani'],
         to: '/armani-black',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/armaniBlack—index.jpg",
         color: 'white',
@@ -38,6 +59,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"august Ames",
+        aliases: ['Mercedes Grabowski',],
         to: '/august-ames',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/augustAmes—index.jpg",
         color: 'white',
@@ -46,6 +68,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"avery cristy",
+        aliases: ['Avery Christy'],
         to: '/avery-cristy',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/averyCristy—index.jpg",
         color: 'white',
@@ -54,6 +77,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"bella rolland",
+        aliases: ['Bella Roland'],
         to: '/bella-rolland',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/bellaRolland—index.jpg",
         color: 'white',
@@ -61,7 +85,17 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"blake blossom",
+        // aliases: ['Blake', 'Blake Blossom'],
+        to: '/blake-blossom',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/blakeBlossom—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"blake eden",
+        aliases: ['Blake', 'Blake Bartelli'],
         to: '/blake-cden',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/blakeEden—index.jpg",
         color: 'hotpink',
@@ -70,6 +104,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"bunny colby",
+        aliases: ['Nadya Nabakova', 'ANNA'],
         to: '/bunny-colby',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/bunnyColby—index.jpg",
         color: 'hotpink',
@@ -78,6 +113,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"casey calvert",
+        aliases: ['Sister Casey'],
         to: '/casey-calvert',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/caseyCalvert—index.jpg",
         color: 'hotpink',
@@ -86,6 +122,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"charlie red",
+        aliases: ['Charlie', 'Hexchen', 'Kris', 'Mimi', 'Tereza'],
         to: '/charlie-red',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/charlieRed—index.jpg",
         color: 'white',
@@ -94,6 +131,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"christy white",
+        aliases: ['Christina Andreadou', 'Christine White', 'Xristina Andreadou'],
         to: '/christyWhite',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/christyWhite—index.jpg",
         color: 'white',
@@ -102,6 +140,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"danni rivers",
+        aliases: ['Dani Rivers'],
         to: '/danniRivers',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/danniRivers—index.jpg",
         color: 'hotpink',
@@ -109,7 +148,26 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"dominika c",
+        aliases: ['Dita', 'Domika C', 'Dominica C', 'Dominika', 'Dominika A', 'Dominika Chybova', 'Dominika85', 'Dominique'],
+        to: '/dominika-c',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/dominikaC—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
+        title:"elena koshka",
+        // aliases: ['Elena', 'Elena Koshka'],
+        to: '/elena-koshka',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/elenaKoshka—index.jpg",
+        color: 'hotpink',
+        txtcolor: 'white',
+    },
+    {
+        id: uuidv4(),
         title:"emily willis",
+        aliases: ['Litzy Lara Bañuelos'],
         to: '/emilyWillis',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/emilyWillis—index.jpg",
         color: 'hotpink',
@@ -118,6 +176,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"eva elfie",
+        aliases: ['Brigitte', 'Lady Jay', 'Tieny Mieny', 'Tiny Teen'],
         to: '/evaElfie',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/evaElfie—index.jpg",
         color: 'hotpink',
@@ -126,6 +185,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"evelyn claire",
+        aliases: ['Evelyn', 'Evelyn Claire'],
         to: '/evelynClaire',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/evelynClaire—index.jpg",
         color: 'hotpink',
@@ -134,6 +194,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"elsa jean",
+        aliases: ['Elsa Dream', 'Elsa Dream Jean', 'Molly', 'Sapphire Howell'],
         to: '/elsaJean',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/elsaJean—index.jpg",
         color: 'white',
@@ -142,6 +203,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"freya mayer",
+        // aliases: ['Freya', 'Freya Mayer'],
         to: '/freyaMayer',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/freyaMayer—index.jpg",
         color: 'hotpink',
@@ -149,7 +211,26 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"freya parker",
+        // aliases: ['Freya', 'Freya Parker'],
+        to: '/freya-parker',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/freyaParker—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
+        title:"georgia jones",
+        aliases: ['Alison Michelle Thompson', 'Alison Thompson', 'Georgia Rose', 'Georgie Jones', 'Larysa'],
+        to: '/georgia-jones',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/georgiaJones—index.jpg",
+        color: 'hotpink',
+        txtcolor: 'white',
+    },
+    {
+        id: uuidv4(),
         title:"gianna dior",
+        aliases: ['Emily Katherine Correro'],
         to: '/giannaDior',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/giannaDior—index.jpg",
         color: 'white',
@@ -158,6 +239,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"gloria sol",
+        aliases: ['Aaliyah', 'Cameron', 'Carolina Quito', 'Dolores', 'Gloria', 'Penelope Y', 'Sofia', 'SofieQ', 'Sophia'],
         to: '/gloriaSol',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/gloriaSol—index.jpg",
         color: 'hotpink',
@@ -166,6 +248,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"haley reed",
+        aliases: ['Amy May', 'Jamie Rott'],
         to: '/haleyReed',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/haleyReed—index.jpg",
         color: 'hotpink',
@@ -174,6 +257,7 @@ export const HomeData = [
     {
         id: uuidv4(),
         title:"hazel moore",
+        aliases: ['Ellie'],
         to: '/hazelMoore',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/hazelMoore—index.jpg",
         color: 'hotpink',
@@ -314,6 +398,23 @@ export const HomeData = [
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lenaReif—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
+    },
+    {
+        id: uuidv4(),
+        title:"lilly bell",
+        to: '/lilly-bell',
+    image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lillyBell—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
+        title:"lily larimar",
+        // aliases: ["lily larimar"],
+        to: '/lily-larimar',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lilyLarimar—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
     },
     {
         id: uuidv4(),

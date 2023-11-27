@@ -1,18 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import '../Navbar/Home.css';
 import { Link } from 'react-router-dom';
-import Navbar from './Navbar';
-import { HomeData } from "/src/components/Navbar/HomeData.jsx";
+import { HomeData } from '/src/components/Navbar/HomeData.jsx';
+import '../Navbar/Home.css';
 
 const Home = () => {
+  const itemsPerPage = 25;
   const [filteredData, setFilteredData] = useState([]);
   const [filters, setFilters] = useState({ search: '' });
   const [sortOrder, setSortOrder] = useState('asc');
   const [sortProperty, setSortProperty] = useState('title');
+  const [isSticky, setIsSticky] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const handleFilterChange = (event) => {
     const { name, value } = event.target;
     setFilters({ ...filters, [name]: value });
+    setCurrentPage(1); // Reset to the first page when a new search is performed
   };
 
   const toggleSortOrder = () => {
@@ -23,22 +26,40 @@ const Home = () => {
     setSortProperty(event.target.value);
   };
 
+  const handleScroll = () => {
+    setIsSticky(window.scrollY > 0);
+  };
+
   useEffect(() => {
-    // Sort data based on the selected property and order
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    // Sort and filter data based on the selected property and order
     const sortedData = [...HomeData].sort((a, b) => {
       const order = sortOrder === 'asc' ? 1 : -1;
       return order * a[sortProperty].localeCompare(b[sortProperty]);
     });
-    setFilteredData(sortedData);
-  }, [sortProperty, sortOrder]);
 
-  useEffect(() => {
-    // Filter data based on search input
-    const updatedFilteredData = HomeData.filter((item) =>
-      item.title.toLowerCase().includes(filters.search.toLowerCase())
+    const updatedFilteredData = sortedData.filter((item) =>
+      item.title.toLowerCase().includes(filters.search.toLowerCase()) ||
+      (item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(filters.search.toLowerCase())))
     );
+
     setFilteredData(updatedFilteredData);
-  }, [filters.search]);
+  }, [sortProperty, sortOrder, filters.search]);
+
+  // Calculate the pagination
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = filteredData.slice(indexOfFirstItem, indexOfLastItem);
+
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
 
   const renderItems = (item) => (
     <div className="cards" key={item.id} style={{ backgroundColor: item.color }}>
@@ -53,11 +74,30 @@ const Home = () => {
     </div>
   );
 
+  const renderPagination = () => {
+    const pageNumbers = [];
+
+    for (let i = 1; i <= Math.ceil(filteredData.length / itemsPerPage); i++) {
+      pageNumbers.push(i);
+    }
+
+    return (
+      <ul className="pagination w-full p-[10px] flex justify-center">
+        {pageNumbers.map(number => (
+          <li key={number} className={`page-item ${number === currentPage ? 'active' : ''} m-2 px-2 py-1 bg-sky-400 rounded`}>
+            <button onClick={() => paginate(number)} className="page-link">
+              {number}
+            </button>
+          </li>
+        ))}
+      </ul>
+    );
+  };
+
   return (
     <>
-      <div className='w-full'>
-        <Navbar />
-        <div className="filters">
+      <div className="w-full">
+        <nav className={`filters ${isSticky ? 'sticky' : ''}`}>
           <label>
             <input
               type="text"
@@ -71,18 +111,25 @@ const Home = () => {
 
           <label>
             Sort by:
-            <select value={sortProperty} onChange={handleSortPropertyChange} className="sort bg-transparent border-b-2 border-black">
-              <option value="title" default >Title</option>
+            <select
+              value={sortProperty}
+              onChange={handleSortPropertyChange}
+              className="sort bg-transparent border-b-2 border-black"
+            >
+              <option value="title" default>
+                Title
+              </option>
               <option value="color">Color</option>
               {/* Add more options based on your data properties */}
             </select>
           </label>
 
-          <button className="sortbtn font-semibold text-[20px]" onClick={toggleSortOrder}>⇃↾</button>
-        </div>
-        <div className="containerwr">
-          {filteredData.map(renderItems)}
-        </div>
+          <button className="sortbtn font-semibold text-[20px]" onClick={toggleSortOrder}>
+            ⇃↾
+          </button>
+        </nav>
+        <div className="containerwr">{currentItems.map(renderItems)}</div>
+        {renderPagination()}
       </div>
     </>
   );

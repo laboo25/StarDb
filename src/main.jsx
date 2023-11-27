@@ -44,6 +44,7 @@ import CharlieRed from './components/Stars/C/CharlieRed.jsx';
 import Score from './components/Folders/Score.jsx';
 import OxanaChic from './components/Stars/O/OxanaChic.jsx';
 import LottieMagne from './components/Stars/L/LottieMagne.jsx';
+import LilyLarimar from './components/Stars/L/Lilylarimar.jsx';
 
 
 
@@ -157,6 +158,10 @@ const router = createBrowserRouter([
   {
     path: "/lottie-magne",
     element: <LottieMagne />,
+  },
+  {
+    path: "/lily-larimar",
+    element: <LilyLarimar />,
   },
   {
     path: "/liyaSilver",
