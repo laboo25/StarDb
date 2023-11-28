@@ -290,6 +290,14 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"jane wilde",
+        to: '/jane-wilde',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/janeWilde—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"janice griffith",
         to: '/janiceGriffith',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/janiceGriffith―index.jpg",
@@ -386,11 +394,27 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"laney grey",
+        to: '/laney-grey',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/laneyGrey—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"leah gotti",
         to: '/leah-gotti',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/leahGotti—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
+    },
+    {
+        id: uuidv4(),
+        title:"leanne lace",
+        to: '/leanne-lace',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/leanneLace—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
     },
     {
         id: uuidv4(),
