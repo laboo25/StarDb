@@ -166,6 +166,15 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"chanel preston",
+        aliases: ['Chanel Payton', 'Chanel Princeton', 'Chantel Preston', 'Rachel Ann Taylor', 'Rachel Taylor'],
+        to: '/chanel-preston',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/chanelPreston—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"charlie red",
         aliases: ['Charlie', 'Hexchen', 'Kris', 'Mimi', 'Tereza'],
         to: '/charlie-red',
