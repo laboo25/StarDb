@@ -571,6 +571,15 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"lexi dona",
+        // aliases: ['Armani Black', 'Armani'],
+        to: '/lexi-dona',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/lexiDona—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"maddy may",
         aliases: ['Maddie May'],
         to: '/maddyMay',
