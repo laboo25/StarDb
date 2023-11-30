@@ -45,6 +45,7 @@ import Score from './components/Folders/Score.jsx';
 import OxanaChic from './components/Stars/O/OxanaChic.jsx';
 import LottieMagne from './components/Stars/L/LottieMagne.jsx';
 import LilyLarimar from './components/Stars/L/Lilylarimar.jsx';
+import EmilyWillis from './components/Stars/E/EmilyWillis.jsx';
 
 
 
@@ -122,6 +123,10 @@ const router = createBrowserRouter([
   {
     path: "/christyWhite",
     element: <ChristyWhite />,
+  },
+  {
+    path: "/emily-willis",
+    element: <EmilyWillis />,
   },
   // {
   //   path: "/jessieSaint",
