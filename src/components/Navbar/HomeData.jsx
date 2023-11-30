@@ -652,6 +652,15 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
+        title:"rebecca volpetti",
+        aliases: ["Sorina", "Anna Italyanka", "Catia A", "Kristina Zaharia"],
+        to: '/rebecca-volpetti',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/rebeccaVolpetti—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
+    {
+        id: uuidv4(),
         title:"ria sunn",
         aliases: ['Nikola', 'Amanda', 'Cici', 'Denisa', 'Isabell', 'Riaa'],
         to: '/riaSunn',

@@ -5,7 +5,7 @@ import SideBar from '../../Navbar/SideBar'
 
 
 
-const LilyLarimar = () => {
+const RebeccaVolpetti = () => {
 
   const [difference, setDifference] = useState();
   useEffect(() => {
@@ -67,33 +67,32 @@ const LilyLarimar = () => {
       <div>
         <Navbar />
         <div className='flex'>
-        {/* <div className="w-[180px] h-screen"></div> */}
           <SideBar />
           <div>
-          <div className="banner">
+            <div className="banner">
               <div className="image">
-                
-                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/lilyLarimar.jpg" alt="" />
+
+                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/rebeccaVolpetti.jpg" alt="" />
               </div>
               <div className="textBox">
-                <h3>lily larimar</h3>
-                {/* <p>
-                  aliases: <span>Oxana; Oxana Z</span>
-                </p> */}
+                <h3>emily willis</h3>
                 <p>
-                  birth place: <span>Pennsylvania, US</span>
+                  aliases: <span>litzy lara bañuelos</span>
                 </p>
                 <p>
-                  birth date: <span>30-June-1998</span>
+                  birth place: <span>Utah, US</span>
                 </p>
                 <p>
-                  age: <span id="age" data-year="1998-6-30">{difference}</span><span className='lowercase'>y</span>
+                  birth date: <span>29-Dec-1998</span>
+                </p>
+                <p>
+                  age: <span id="age" data-year="1998-12-29">{difference}</span><span className='lowercase'>y</span>
                 </p>
                 <p>
                   Profession: <span>adult model, porn star</span>
                 </p>
                 <p>
-                  career: <span>2019—<span className="common active">active</span></span>
+                  career: <span>2017—<span className="common active">active</span></span>
                 </p>
                 <p>
                   race: <span>caucasian</span>
@@ -102,44 +101,45 @@ const LilyLarimar = () => {
                   boobs: <span>natural</span>
                 </p>
                 <p>
-                  measurements: <span>30B―24―30</span>
+                  measurements: <span>32A―23―34</span>
                 </p>
                 <p>
-                  hair color: <span>blonde</span>
+                  hair color: <span>brown</span>
                 </p>
                 <p>
-                  eye color: <span>blue</span>
+                  eye color: <span>brown</span>
                 </p>
                 <p>
-                  shoe size: <span className= "">7 us</span>
+                  shoe size: <span>37 us</span>
                 </p>
                 <p>
-                  height: <span>5'4" [163 Cm]</span>
+                  height: <span>5'5" [165 Cm]</span>
                 </p>
                 <p>
                   piercings: <span>no</span>
                 </p>
                 <p>
-                  tattoos: <span>Right hip; inside left forearm</span>
+                  tattoos: <span>no</span>
                 </p>
                 <p>
-                  pubic hair: <span>Shaved</span>
+                  pubic hair: <span>shaved</span>
                 </p>
                 <p>
-                  abaility: <span>FF, Vaginal</span>
+                  abaility: <span>FF, DP</span>
                 </p>
               </div>
             </div>
 
 
+
           </div>
         </div>
         <div>
-        
+
         </div>
       </div>
     </>
   )
 }
 
-export default LilyLarimar
+export default RebeccaVolpetti

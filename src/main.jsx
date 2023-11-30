@@ -46,6 +46,7 @@ import OxanaChic from './components/Stars/O/OxanaChic.jsx';
 import LottieMagne from './components/Stars/L/LottieMagne.jsx';
 import LilyLarimar from './components/Stars/L/Lilylarimar.jsx';
 import EmilyWillis from './components/Stars/E/EmilyWillis.jsx';
+import RebeccaVolpetti from './components/Stars/R/RebeccaVolpetti.jsx';
 
 
 
@@ -180,6 +181,10 @@ const router = createBrowserRouter([
   {
     path: "/oxana-chic",
     element: <OxanaChic />,
+  },
+  {
+    path: "/rebecca-volpetti",
+    element: <RebeccaVolpetti />,
   },
   {
     path: "/sophia-leone",
