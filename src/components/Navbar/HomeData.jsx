@@ -231,7 +231,7 @@ export const HomeData = [
         id: uuidv4(),
         title:"emily willis",
         aliases: ['Litzy Lara Bañuelos'],
-        to: '/emilyWillis',
+        to: '/emily-willis',
         image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/emilyWillis—index.jpg",
         color: 'hotpink',
         txtcolor: 'white',
