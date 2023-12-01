@@ -11,7 +11,12 @@ const Home = () => {
   const [sortProperty, setSortProperty] = useState('title');
   const [isSticky, setIsSticky] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
+  const [arrayLength, setArrayLength] = useState(null);
 
+  useEffect(() => {
+    // Set the array length when the component mounts
+    setArrayLength(HomeData.length);
+  }, []);
   const handleFilterChange = (event) => {
     const { name, value } = event.target;
     setFilters({ ...filters, [name]: value });
@@ -108,25 +113,29 @@ const Home = () => {
               className="search bg-transparent placeholder:text-[#0000007e] border-b-2 border-black outline-none"
             />
           </label>
-
-          <label>
-            Sort by:
-            <select
-              value={sortProperty}
-              onChange={handleSortPropertyChange}
-              className="sort bg-transparent border-b-2 border-black"
-            >
-              <option value="title" default>
-                Title
-              </option>
-              <option value="color">Color</option>
-              {/* Add more options based on your data properties */}
-            </select>
-          </label>
-
-          <button className="sortbtn font-semibold text-[20px]" onClick={toggleSortOrder}>
-            ⇃↾
-          </button>
+          <div>
+            
+            <label>
+              Sort by:
+              <select
+                value={sortProperty}
+                onChange={handleSortPropertyChange}
+                className="sort bg-transparent border-b-2 border-black"
+              >
+                <option value="title" default>
+                  Title
+                </option>
+                <option value="color">Color</option>
+                {/* Add more options based on your data properties */}
+              </select>
+            </label>
+          </div>
+          <div className='flex'>
+            <h1>Stars: {arrayLength}</h1>
+            <button className="sortbtn font-semibold text-[20px] mx-3" onClick={toggleSortOrder}>
+              ⇃↾
+            </button>
+          </div>
         </nav>
         <div className="containerwr">{currentItems.map(renderItems)}</div>
         {renderPagination()}
