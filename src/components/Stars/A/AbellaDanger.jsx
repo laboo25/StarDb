@@ -125,8 +125,8 @@ const handleAll = () => {
           </div>
         </div>
 
-        <div className="filterItem w-full flex flex-wrap">
-          <ul>
+        <div className="filterItem ">
+          <ul className= "w-full flex flex-wrap">
             <li>
               <button onClick={handleAll}>All</button>
             </li>
