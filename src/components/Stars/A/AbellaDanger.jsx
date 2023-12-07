@@ -125,8 +125,8 @@ const handleAll = () => {
           </div>
         </div>
 
-        <div className="filterItem ">
-          <ul className= "w-full flex flex-wrap">
+        <div className="filterItem">
+          <ul>
             <li>
               <button onClick={handleAll}>All</button>
             </li>
@@ -142,7 +142,7 @@ const handleAll = () => {
         <div className="row">
           {data.map((item) => (
             <div className="column" key={item.id}>
-              <a href={item.imgUrl} data-fancybox="gallery"  data-caption={item.catagory} data-download-src={item.imgUrl}>
+              <a href={item.imgUrl} data-fancybox="gallery"  data-caption={item.catagory} data-download-src={item.imgUrl} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 
                 <img
                       src={item.thumbnailUrl}
@@ -153,11 +153,13 @@ const handleAll = () => {
                           img.style.width = '100%';
                           img.style.height = 'auto';
                           img.style.objectFit = 'contain';
+                          img.style.justifyContent = 'center';
                         }
                         else if (img.naturalWidth < img.naturalHeight) {
                           img.style.height = '100%';
                           img.style.width = 'auto';
                           img.style.objectFit = 'contain';
+                          img.style.alignItems = 'center';
                         }
                         else {
                           img.style.width = '100%';

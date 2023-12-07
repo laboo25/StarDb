@@ -229,15 +229,6 @@ export const HomeData = [
     },
     {
         id: uuidv4(),
-        title:"dani daniels",
-        aliases: ['Kira Lee Orsa'],
-        to: '/dani-daniels',
-        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/daniDaniels—index.jpg",
-        color: 'white',
-        txtcolor: 'black',
-    },
-    {
-        id: uuidv4(),
         title:"danni rivers",
         aliases: ['Dani Rivers'],
         to: '/danniRivers',

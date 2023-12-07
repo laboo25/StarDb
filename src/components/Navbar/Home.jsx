@@ -114,7 +114,11 @@ const Home = () => {
             />
           </label>
           <div>
-            
+            <Link to='/feets'>
+            <h2 className="feet">feets image</h2>
+            </Link>
+          </div>
+          <div>
             <label>
               Sort by:
               <select
@@ -137,6 +141,9 @@ const Home = () => {
             </button>
           </div>
         </nav>
+        <div>
+          <Link to='/hello' >link 1</Link>
+        </div>
         <div className="containerwr">{currentItems.map(renderItems)}</div>
         {renderPagination()}
       </div>

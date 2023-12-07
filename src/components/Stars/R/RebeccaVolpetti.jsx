@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import '../../Navbar/StarStyle.css'
-import Navbar from '../../Navbar/Navbar'
-import SideBar from '../../Navbar/SideBar'
-
-
+import React, { useEffect, useState } from "react";
+import "../../Navbar/StarStyle.css";
+import Navbar from "../../Navbar/Navbar";
+import SideBar from "../../Navbar/SideBar";
 
 const RebeccaVolpetti = () => {
-
   const [difference, setDifference] = useState();
   useEffect(() => {
     // Access the data attribute inside the useEffect hook
@@ -25,23 +22,22 @@ const RebeccaVolpetti = () => {
 
   useEffect(() => {
     const processImages = () => {
-      const images = document.querySelectorAll('.column img');
+      const images = document.querySelectorAll(".column img");
       const arr = Array.from(images);
 
       arr.forEach((item) => {
         if (item.naturalWidth > item.naturalHeight) {
-          item.style.width = '100%';
-          item.style.height = 'auto';
-          item.style.objectFit = 'contain';
-          
+          item.style.width = "100%";
+          item.style.height = "auto";
+          item.style.objectFit = "contain";
         } else if (item.naturalWidth < item.naturalHeight) {
-          item.style.width = 'auto';
-          item.style.height = '100%';
-          item.style.objectFit = 'contain';
+          item.style.width = "auto";
+          item.style.height = "100%";
+          item.style.objectFit = "contain";
         } else {
-          item.style.width = '100%';
-          item.style.height = '100%';
-          item.style.objectFit = 'contain';
+          item.style.width = "100%";
+          item.style.height = "100%";
+          item.style.objectFit = "contain";
         }
       });
     };
@@ -49,30 +45,29 @@ const RebeccaVolpetti = () => {
     processImages();
   }, []);
 
-  
-
   // useEffect(()=>{
   //   setData(Alexa);
   //   setCollection([... new Set(Alexa.map((item)=> item.title))])
-  // },[]) 
+  // },[])
 
   // const gallery_filter = (itemData) =>{
   //   const filterData = Alexa.filter((item)=> item.title == itemData);
   //   setData(filterData);
   // }
- 
 
   return (
     <>
       <div>
         <Navbar />
-        <div className='flex'>
+        <div className="flex">
           <SideBar />
           <div>
             <div className="banner">
               <div className="image">
-
-                <img src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/rebeccaVolpetti.jpg" alt="" />
+                <img
+                  src="https://raw.githubusercontent.com/laboo25/mag-imgs/main/cover/rebeccaVolpetti.jpg"
+                  alt=""
+                />
               </div>
               <div className="textBox">
                 <h3>emily willis</h3>
@@ -86,13 +81,20 @@ const RebeccaVolpetti = () => {
                   birth date: <span>29-Dec-1998</span>
                 </p>
                 <p>
-                  age: <span id="age" data-year="1998-12-29">{difference}</span><span className='lowercase'>y</span>
+                  age:{" "}
+                  <span id="age" data-year="1998-12-29">
+                    {difference}
+                  </span>
+                  <span className="lowercase">y</span>
                 </p>
                 <p>
                   Profession: <span>adult model, porn star</span>
                 </p>
                 <p>
-                  career: <span>2017—<span className="common active">active</span></span>
+                  career:{" "}
+                  <span>
+                    2017—<span className="common active">active</span>
+                  </span>
                 </p>
                 <p>
                   race: <span>caucasian</span>
@@ -129,17 +131,12 @@ const RebeccaVolpetti = () => {
                 </p>
               </div>
             </div>
-
-
-
           </div>
         </div>
-        <div>
-
-        </div>
+        <div></div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default RebeccaVolpetti
+export default RebeccaVolpetti;

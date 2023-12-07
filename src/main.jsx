@@ -6,6 +6,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import firebaseConfig from "./firebase/firebase.jsx"
 
 // import { Provider } from "react-redux";
 // import store from "./redux/store";
@@ -47,6 +48,9 @@ import LottieMagne from './components/Stars/L/LottieMagne.jsx';
 import LilyLarimar from './components/Stars/L/Lilylarimar.jsx';
 import EmilyWillis from './components/Stars/E/EmilyWillis.jsx';
 import RebeccaVolpetti from './components/Stars/R/RebeccaVolpetti.jsx';
+import Stars from './components/Stars/Stars.jsx';
+import Feets from './components/Feet/Feets.jsx';
+
 
 
 
@@ -87,6 +91,14 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     exact: true
+  },
+  {
+    path: "/:name",
+    element: <Stars />,
+  },
+  {
+    path: "/feets",
+    element: <Feets />,
   },
   {
     path: "AbellaDanger",

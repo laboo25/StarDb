@@ -23,9 +23,7 @@
     padding: 8px 5px;
     border-radius: 5px;
   }
-  .SideBarChild {
-      scrollbar-width: none;
-    }
+  
   
   .banner {
     width: 1100px;
@@ -232,6 +230,7 @@
  .row .column a {
     width: inherit;
     height: inherit;
+    display: flex;
  }
   
   
