@@ -61,7 +61,7 @@
   .row .column {
     width: 150px;
     height: auto;
-    background-color: blue;
+/*     background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
