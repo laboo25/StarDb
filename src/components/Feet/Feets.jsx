@@ -45,9 +45,10 @@ const Feets = () => {
                 className="w-full p-2 border rounded mx-4"
               >
                 <option value="">All Names</option>
-                {Array.from(new Set(feetsdata.flatMap(item => item.name.concat(item.aliases || [])))).map((name, index) => (
-                  <option key={index} value={name}>{name}</option>
-                ))}
+                {Array.from(new Set(feetsdata.flatMap(item => [item.name]))) // Include only 'name', exclude 'aliases'
+  .map((name, index) => (
+    <option key={index} value={name}>{name}</option>
+))}
               </select>
             </div>
 
