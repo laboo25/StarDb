@@ -27,6 +27,13 @@ const Feets = () => {
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
+  const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
+  .filter((name, index, arr) => arr.indexOf(name) === index);
+
+// Map unique names to options
+const nameFilterOptions = uniqueNames.map((name, index) => (
+  <option key={index} value={name}>{name}</option>
+));
 
   return (
     <>
@@ -39,18 +46,14 @@ const Feets = () => {
             <div className="options flex justify-center items-center mx-4">
               <label className=" text-sm font-bold text-gray-700 mb-2" htmlFor="nameFilter">Names:</label>
               <select
-                id="nameFilter"
-                value={nameFilter}
-                onChange={(e) => setNameFilter(e.target.value)}
-                className="w-full p-2 border rounded mx-4"
-              >
-                <option value="">All Names</option>
-                {Array.from(new Set(feetsdata.flatMap(item => [item.name])))
-  .filter((name, index, arr) => arr.indexOf(name) === index) // Filter out duplicates
-  .map((name, index) => (
-    <option key={index} value={name}>{name}</option>
-))}
-              </select>
+  id="nameFilter"
+  value={nameFilter}
+  onChange={(e) => setNameFilter(e.target.value)}
+  className="w-full p-2 border rounded mx-4"
+>
+  <option value="">All Names</option>
+  {nameFilterOptions}
+</select>
             </div>
 
             <div className="search flex justify-center items-center ">
