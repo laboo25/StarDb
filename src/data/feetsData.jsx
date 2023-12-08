@@ -20,4 +20,16 @@ export const feetsdata = [
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―03.jpg",
         name: ['name4', 'name5'],
     },
+    {
+        id: uuidv4(),
+        imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―01.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/feet―05.jpg",
+        name: ['name4', 'name5'],
+    },
+    {
+        id: uuidv4(),
+        imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―04.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/LenaAnderson/face―04.jpg",
+        name: ['name4', 'name5'],
+    },
 ];
