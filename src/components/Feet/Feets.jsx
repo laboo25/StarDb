@@ -28,13 +28,13 @@ const Feets = () => {
     setCurrentPage(page);
   };
   const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
+  .sort() // Sorting in ascending order (A-Z)
   .filter((name, index, arr) => arr.indexOf(name) === index);
 
 // Map unique names to options
 const nameFilterOptions = uniqueNames.map((name, index) => (
   <option key={index} value={name}>{name}</option>
 ));
-
   return (
     <>
       <div className='main w-full h-full'>
