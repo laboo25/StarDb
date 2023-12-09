@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Feet/feets.css'
+import '../Feet/feets.css';
 import { feetsdata } from "../../data/feetsData.jsx";
 import { Link } from 'react-router-dom';
 
@@ -24,17 +24,19 @@ const Feets = () => {
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredData.slice(startIndex, endIndex);
 
+  const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
+    .sort() // Sorting in ascending order (A-Z)
+    .filter((name, index, arr) => arr.indexOf(name) === index);
+
+  // Filter suggestions based on the current input value
+  const filteredSuggestions = uniqueNames.filter(suggestion =>
+    suggestion.toLowerCase().includes(searchFilter.toLowerCase())
+  );
+
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
-  const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-  .sort() // Sorting in ascending order (A-Z)
-  .filter((name, index, arr) => arr.indexOf(name) === index);
 
-// Map unique names to options
-const nameFilterOptions = uniqueNames.map((name, index) => (
-  <option key={index} value={name}>{name}</option>
-));
   return (
     <>
       <div className='main w-full h-full'>
@@ -46,14 +48,16 @@ const nameFilterOptions = uniqueNames.map((name, index) => (
             <div className="options flex justify-center items-center mx-4">
               <label className=" text-sm font-bold text-gray-700 mb-2" htmlFor="nameFilter">Names:</label>
               <select
-  id="nameFilter"
-  value={nameFilter}
-  onChange={(e) => setNameFilter(e.target.value)}
-  className="w-full p-2 border rounded mx-4"
->
-  <option value="">All Names</option>
-  {nameFilterOptions}
-</select>
+                id="nameFilter"
+                value={nameFilter}
+                onChange={(e) => setNameFilter(e.target.value)}
+                className="w-full p-2 border rounded mx-4"
+              >
+                <option value="">All Names</option>
+                {uniqueNames.map((name, index) => (
+                  <option key={index} value={name}>{name}</option>
+                ))}
+              </select>
             </div>
 
             <div className="search flex justify-center items-center ">
@@ -64,7 +68,21 @@ const nameFilterOptions = uniqueNames.map((name, index) => (
                 value={searchFilter}
                 onChange={(e) => setSearchFilter(e.target.value)}
                 className="w-full p-2 mx-5 border rounded"
+                placeholder="Search..."
               />
+              {filteredSuggestions.length > 0 && (
+                <div className="suggestions">
+                  {filteredSuggestions.map((suggestion, index) => (
+                    <div
+                      key={index}
+                      className="suggestion"
+                      onClick={() => setSearchFilter(suggestion)}
+                    >
+                      {suggestion}
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -123,6 +141,7 @@ const nameFilterOptions = uniqueNames.map((name, index) => (
             </button>
           ))}
         </div>
+      </div>
       </div>
     </>
   );
