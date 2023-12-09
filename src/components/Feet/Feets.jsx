@@ -130,7 +130,7 @@ const Feets = () => {
           ))}
         </div>
 
-        <div className="flex justify-center mt-4">
+        <div className="flex justify-center mt-4 py-4">
           {Array.from({ length: totalPages }, (_, index) => (
             <button
               key={index}
