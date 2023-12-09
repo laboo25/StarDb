@@ -55,7 +55,7 @@ const Feets = () => {
               >
                 <option value="">All Names</option>
                 {uniqueNames.map((name, index) => (
-                  <option key={index} value={name}>{name}</option>
+                  <option className= 'capitalize' key={index} value={name}>{name}</option>
                 ))}
               </select>
             </div>
