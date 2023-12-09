@@ -80,9 +80,9 @@ const Feets = () => {
                     >
                       {suggestion}
                     </div>
-                  ))} */}
+                  ))}
                 </div>
-              )}
+              )} */}
             </div>
           </div>
         </div>
