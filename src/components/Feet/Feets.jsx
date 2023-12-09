@@ -142,7 +142,6 @@ const Feets = () => {
           ))}
         </div>
       </div>
-      </div>
     </>
   );
 };
