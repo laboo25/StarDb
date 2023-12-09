@@ -70,7 +70,7 @@ const Feets = () => {
                 className="w-full p-2 mx-5 border rounded"
                 placeholder="Search..."
               />
-              {filteredSuggestions.length > 0 && (
+{/*               {filteredSuggestions.length > 0 && (
                 <div className="suggestions">
                   {filteredSuggestions.map((suggestion, index) => (
                     <div
@@ -80,7 +80,7 @@ const Feets = () => {
                     >
                       {suggestion}
                     </div>
-                  ))}
+                  ))} */}
                 </div>
               )}
             </div>
