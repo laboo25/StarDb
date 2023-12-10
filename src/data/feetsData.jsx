@@ -3,6 +3,78 @@ import { v4 as uuidv4 } from 'uuid';
 export const feetsdata = [
 	{
         id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-1.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-1.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-2.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-2.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-3.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-3.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-4.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-4.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-5.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-5.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-6.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-6.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-7.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-7.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-8.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-8.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-9.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-9.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-10.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-10.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-11.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-11.webp",
+    },
+	{
+        id: uuidv4(),
+        name: ['abby lee brazil'],
+        imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-12.jpg",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-12.webp",
+    },
+	{
+        id: uuidv4(),
         name: ['abbie cat'],
 	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-1.jpg",
