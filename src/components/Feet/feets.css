@@ -29,6 +29,7 @@
 }
 .fancybox__caption {
     color: black !important;
+    text-transform: capitalize !important ;
 }
 
  @media only screen and (max-width: 375px) {
