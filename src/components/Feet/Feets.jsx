@@ -24,9 +24,12 @@ const Feets = () => {
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredData.slice(startIndex, endIndex);
 
+  // const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
+  //   .sort() // Sorting in ascending order (A-Z)
+  //   .filter((name, index, arr) => arr.indexOf(name) === index);
   const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-    .sort() // Sorting in ascending order (A-Z)
-    .filter((name, index, arr) => arr.indexOf(name) === index);
+  .map(name => ({ name, length: name.length })) // Map to objects with name and length properties
+  .sort((a, b) => a.name.localeCompare(b.name)); // Sorting in ascending order (A-Z) based on name
 
   // Filter suggestions based on the current input value
   const filteredSuggestions = uniqueNames.filter(suggestion =>
@@ -51,6 +54,20 @@ const Feets = () => {
             <div className="options flex justify-center items-center mx-4">
               <label className=" text-sm font-bold text-gray-700 mb-2" htmlFor="nameFilter">Names:</label>
               <select
+  id="nameFilter"
+  value={nameFilter}
+  onChange={(e) => setNameFilter(e.target.value)}
+  className="w-full p-2 border rounded mx-4"
+>
+  <option value="">All Names</option>
+  {uniqueNames.map((item, index) => (
+    <option className='capitalize' key={index} value={item.name}>
+      {`${item.name} (${item.length})`}
+    </option>
+  ))}
+</select>
+
+{/*               <select
                 id="nameFilter"
                 value={nameFilter}
                 onChange={(e) => setNameFilter(e.target.value)}
@@ -60,7 +77,7 @@ const Feets = () => {
                 {uniqueNames.map((name, index) => (
                   <option className= 'capitalize' key={index} value={name}>{name}</option>
                 ))}
-              </select>
+              </select> */}
             </div>
 
             <div className="search flex justify-center items-center ">
