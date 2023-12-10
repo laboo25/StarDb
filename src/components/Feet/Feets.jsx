@@ -10,19 +10,14 @@ const Feets = () => {
   const itemsPerPage = 50;
 
   const filteredData = feetsdata.filter(item => {
-    const matchesName = item.name.some(name => typeof name === 'string' && name.toLowerCase().includes(nameFilter.toLowerCase()));
-const matchesAliases = item.aliases && item.aliases.some(alias => typeof alias === 'string' && alias.toLowerCase().includes(nameFilter.toLowerCase()));
-const matchesSearch = (
-  item.name.map(name => (typeof name === 'string' ? name : '')).join(', ').toLowerCase().includes(searchFilter.toLowerCase()) ||
-  (item.aliases && item.aliases.map(alias => (typeof alias === 'string' ? alias : '')).join(', ').toLowerCase().includes(searchFilter.toLowerCase()))
-);
+    
 
-    // const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
-    // const matchesAliases = item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(nameFilter.toLowerCase()));
-    // const matchesSearch = (
-    //   item.name.join(', ').toLowerCase().includes(searchFilter.toLowerCase()) ||
-    //   (item.aliases && item.aliases.join(', ').toLowerCase().includes(searchFilter.toLowerCase()))
-    // );
+    const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
+    const matchesAliases = item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(nameFilter.toLowerCase()));
+    const matchesSearch = (
+      item.name.join(', ').toLowerCase().includes(searchFilter.toLowerCase()) ||
+      (item.aliases && item.aliases.join(', ').toLowerCase().includes(searchFilter.toLowerCase()))
+    );
     return (nameFilter === '' || matchesName || matchesAliases) && (searchFilter === '' || matchesSearch);
   });
 
@@ -31,12 +26,10 @@ const matchesSearch = (
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredData.slice(startIndex, endIndex);
 
-  // const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-  //   .sort() // Sorting in ascending order (A-Z)
-  //   .filter((name, index, arr) => arr.indexOf(name) === index);
   const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-  .map(name => ({ name, length: name.length })) // Map to objects with name and length properties
-  .sort((a, b) => a.name.localeCompare(b.name)); // Sorting in ascending order (A-Z) based on name
+    .sort() // Sorting in ascending order (A-Z)
+    .filter((name, index, arr) => arr.indexOf(name) === index);
+  
 
   // Filter suggestions based on the current input value
   const filteredSuggestions = uniqueNames.filter(suggestion =>
@@ -74,7 +67,7 @@ const matchesSearch = (
   ))}
 </select>
 
-{/*               <select
+              <select
                 id="nameFilter"
                 value={nameFilter}
                 onChange={(e) => setNameFilter(e.target.value)}
@@ -84,7 +77,7 @@ const matchesSearch = (
                 {uniqueNames.map((name, index) => (
                   <option className= 'capitalize' key={index} value={name}>{name}</option>
                 ))}
-              </select> */}
+              </select>
             </div>
 
             <div className="search flex justify-center items-center ">
