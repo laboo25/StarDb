@@ -445,7 +445,7 @@ export const feetsdata = [
         id: uuidv4(),
         name: ['zoe kravitz 👩'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/zoe-kravitz/zoe-kravitz-5.jpg",
-        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/zoe-kravitz/zoe-kravitz-5webp",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/zoe-kravitz/zoe-kravitz-5.webp",
     },
     {
         id: uuidv4(),
@@ -637,13 +637,13 @@ export const feetsdata = [
         id: uuidv4(),
         name: ['ariel grace'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/ariel-grace/ariel-grace-25.jpg",
-        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/ariel-grace/ariel-grace-25.webp",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/ariel-grace/ariel-grace-26.webp",
     },
     {
         id: uuidv4(),
         name: ['ariel grace'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/ariel-grace/ariel-grace-26.jpg",
-        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/ariel-grace/ariel-grace-26.webp",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/ariel-grace/ariel-grace-25.webp",
     },
     {
         id: uuidv4(),
