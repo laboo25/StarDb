@@ -25,7 +25,7 @@
     display: flex;
  }
 .fancybox__backdrop {
-    background-color: white !important;
+    background-color: #f6f6f6 !important;
 }
 .fancybox__caption {
     color: black !important;
