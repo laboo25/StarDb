@@ -24,7 +24,7 @@ export const feetsdata = [
     },
     {
         id: uuidv4(),
-        name: ['antonia sainz'],
+        name: ['antonia sainz', 'foxxi black'],
         aliases: ['Antonia', 'Honey B', 'Katerina', 'Natalie', 'Ursula S'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/antonia-sainz/antonia-sainz-4.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/antonia-sainz/antonia-sainz-4.webp",
