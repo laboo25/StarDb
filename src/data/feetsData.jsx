@@ -55,7 +55,7 @@ export const feetsdata = [
         name: ['alyssa reece'],
         aliases: ['alyssa reese'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/alyssa-reece/alyssa-reece-1.jpg",
-        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/alyssa-reece/alexis-breeze-1.webp",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/alyssa-reece/alyssa-reece-1.webp",
     },
     {
         id: uuidv4(),
