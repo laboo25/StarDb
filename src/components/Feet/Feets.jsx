@@ -67,7 +67,7 @@ const Feets = () => {
   ))}
 </select>
 
-              <select
+{/*               <select
                 id="nameFilter"
                 value={nameFilter}
                 onChange={(e) => setNameFilter(e.target.value)}
@@ -77,7 +77,7 @@ const Feets = () => {
                 {uniqueNames.map((name, index) => (
                   <option className= 'capitalize' key={index} value={name}>{name}</option>
                 ))}
-              </select>
+              </select> */}
             </div>
 
             <div className="search flex justify-center items-center ">
