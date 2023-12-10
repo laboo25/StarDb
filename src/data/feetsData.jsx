@@ -1,863 +1,863 @@
 import { v4 as uuidv4 } from 'uuid';
 
 export const feetsdata = [
-	{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-1.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-1.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-2.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-2.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-3.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-3.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-4.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-4.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-5.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-5.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-6.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-6.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-7.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-7.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-8.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-8.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-9.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-9.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-10.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-10.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-11.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-11.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-12.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-12.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-13.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-13.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-14.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-14.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-15.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-15.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-16.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-16.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-17.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-17.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-18.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-18.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-19.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-19.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-20.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-20.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-21.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-21.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-22.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-22.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-23.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-23.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-24.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-24.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-25.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-25.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-26.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-26.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-27.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-27.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-28.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-28.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-29.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-29.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-30.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-30.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-31.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-31.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-32.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-32.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-33.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-33.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-34.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-34.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-35.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-35.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-36.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-36.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-37.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-37.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-38.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-38.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-39.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-39.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-40.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-40.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-41.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-41.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-42.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-42.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-43.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-43.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-44.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-44.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-45.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-45.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-46.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-46.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-47.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-47.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-48.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-48.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['adrienne manning'],
-	aliases: ['Adri Manning', Hot Adri', Sweet Adri'],
+        aliases: ['Adri Manning', 'Hot Adri', 'Sweet Adri'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-49.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/adrienne-manning/aadrienne-manning-49.webp",
     },
 
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-1.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-1.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-2.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-2.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-3.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-3.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-4.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-4.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-5.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-5.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-6.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-6.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-7.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-7.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-8.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-8.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-9.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-9.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-10.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-10.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-11.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-11.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abby lee brazil'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-12.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abby-lee-brazil/abby-lee-brazil-12.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-1.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-1.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-2.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-2.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-3.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-3.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-4.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-4.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-5.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-5.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-6.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-6.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-7.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-7.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-8.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-8.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-9.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-9.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-10.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-10.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-11.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-11.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-12.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-12.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-13.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-13.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-14.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-14.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-15.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-15.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-16.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-16.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-17.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-17.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-18.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-18.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-19.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-19.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-20.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-20.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['abbie cat'],
-	aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
+        aliases: ['Abbie Karups', 'Abbie Sapphic', 'Evelin', 'Evelin Gunyecz'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-21.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/abbie-cat/abbie-cat-21.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-1.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-1.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-2.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-2.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-3.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-3.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-4.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-4.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-5.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-5.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-6.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-6.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-7.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-7.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-8.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-8.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-9.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-9.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-10.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-10.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-11.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-11.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-12.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-12.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-13.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-13.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-14.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-14.webp",
     },
-	{
+    {
         id: uuidv4(),
         name: ['AJ Applegate'],
-	aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
+        aliases: ['A.J. Applegate', 'Ajay Applegate', 'Danielle Corine Gray', 'Kaylee Evans'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-15.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/aj-applegate/aj-Applegate-15.webp",
     },
     {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―01.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―01%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―02.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―02%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―03.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―03%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―04.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―04%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―05.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―05%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―06.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―06%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―07.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―07%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―08.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―08%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―09.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―09%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―10.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―10%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―11.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―11%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kyler quinn'],
-	aliases: ['Aubrey Dolan', 'Taylor Corbett'],
+        aliases: ['Aubrey Dolan', 'Taylor Corbett'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―12.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kylerQuinn/feet―12%20mini.jpg",
     },
     {
         id: uuidv4(),
         name: ['kenna james'],
-	aliases: ['Keena James'],
+        aliases: ['Keena James'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―01.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―01%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kenna james'],
-	aliases: ['Keena James'],
+        aliases: ['Keena James'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―02.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―02%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kenna james'],
-	aliases: ['Keena James'],
+        aliases: ['Keena James'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―03.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―03%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kenna james'],
-	aliases: ['Keena James'],
+        aliases: ['Keena James'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―04.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―04%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kenna james'],
-	aliases: ['Keena James'],
+        aliases: ['Keena James'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―05.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―05%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kenna james'],
-	aliases: ['Keena James'],
+        aliases: ['Keena James'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―06jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―06%20mini.jpg",
     },
-{
+    {
         id: uuidv4(),
         name: ['kenna james'],
-	aliases: ['Keena James'],
+        aliases: ['Keena James'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―07.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/kennaJames/feet―07%20mini.jpg",
     },
-        
+
     {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―01.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―01.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―02.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―02.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―03.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―03.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―04.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―04.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―05.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―05.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―06.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―06.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―07.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―07.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―08.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―08.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―09.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―09.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―10.jpg",
@@ -869,55 +869,55 @@ export const feetsdata = [
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―11.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―11.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―12.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―12.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―13.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―13.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―14.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―14.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―15.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―15.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―16.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―16.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―17.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―17.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―18.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―18.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―19.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―19.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―20.jpg",
@@ -929,55 +929,55 @@ export const feetsdata = [
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―21.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―21.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―22.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―22.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―23.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―23.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―24.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―24.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―25.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―25.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―26.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―26.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―27.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―27.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―28.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―28.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―29.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―29.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―30.jpg",
@@ -989,55 +989,55 @@ export const feetsdata = [
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―31.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―31.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―32.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―32.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―33.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―33.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―34.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―34.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―35.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―35.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―36.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―36.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―37.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―37.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―38.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―38.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―39.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―39.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―40.jpg",
@@ -1049,37 +1049,37 @@ export const feetsdata = [
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―41.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―41.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―42.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―42.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―43.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―43.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―44.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―44.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―45.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―45.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―46.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―46.webp",
     },
-{
+    {
         id: uuidv4(),
         name: ['janice griffith'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/janiceGriffith/feet―47.jpg",
@@ -1561,5 +1561,5 @@ export const feetsdata = [
         thumbnailUrl: 'https://raw.githubusercontent.com/laboo25/mag-imgs/main/imgs/toriBlack/feet―10%20mini.jpg',
     },
 
-    
+
 ];
