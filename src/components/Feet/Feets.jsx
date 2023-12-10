@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../Feet/feets.css';
 import { feetsdata } from "../../data/feetsData.jsx";
+import { piedi } from "../../data/piedi.jsx";
 import { Link } from 'react-router-dom';
 
 const Feets = () => {
@@ -9,9 +10,12 @@ const Feets = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 50;
 
-  const uniqueNamesWithLength = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-    .map(name => ({ name, length: name.length }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+  // const uniqueNamesWithLength = Array.from(new Set(feetsdata.flatMap(item => item.name)))
+  //   .map(name => ({ name, length: name.length }))
+  //   .sort((a, b) => a.name.localeCompare(b.name));
+  const uniqueNamesWithLength = Array.from(new Set([...feetsdata, ...piedi].flatMap(item => item.name)))
+  .map(name => ({ name, length: name.length }))
+  .sort((a, b) => a.name.localeCompare(b.name));
 
   const filteredData = feetsdata.filter(item => {
     const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
