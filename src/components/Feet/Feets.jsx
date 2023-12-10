@@ -44,6 +44,9 @@ const Feets = () => {
           <div className='logo w-[20%] mx-[50px]'>
             <Link to='/' className='font-bold text-[25px]'>Home</Link>
           </div>
+          <div className="flex justify-center mt-2 text-gray-500">
+        <p>Total items: {filteredData.length}</p>
+      </div>
           <div className='flex justify-between'>
             <div className="options flex justify-center items-center mx-4">
               <label className=" text-sm font-bold text-gray-700 mb-2" htmlFor="nameFilter">Names:</label>
