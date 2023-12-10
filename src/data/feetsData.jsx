@@ -10,14 +10,14 @@ export const feetsdata = [
     },
     {
         id: uuidv4(),
-        name: ['antonia sainz'],
+        name: ['antonia sainz', 'foxxi black'],
         aliases: ['Antonia', 'Honey B', 'Katerina', 'Natalie', 'Ursula S'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/antonia-sainz/antonia-sainz-2.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/antonia-sainz/antonia-sainz-2.webp",
     },
     {
         id: uuidv4(),
-        name: ['antonia sainz'],
+        name: ['antonia sainz', 'foxxi black'],
         aliases: ['Antonia', 'Honey B', 'Katerina', 'Natalie', 'Ursula S'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/antonia-sainz/antonia-sainz-3.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/antonia-sainz/antonia-sainz-3.webp",
