@@ -133,12 +133,13 @@ const Feets = () => {
         <div className="flex justify-center mt-4 py-4">
   {Array.from({ length: totalPages }, (_, index) => (
     <button
-      key={index}
-      className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
-      onClick={() => handlePageChange(index + 1)}
-    >
-      {index + 1}
-    </button>
+  key={index}
+  type="button"  // Add this line to prevent the default form submission behavior
+  className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
+  onClick={() => handlePageChange(index + 1)}
+>
+  {index + 1}
+</button>
   ))}
 </div>
       </div>
