@@ -37,6 +37,9 @@
   .head {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
   }
   .logo {
     margin: 10px;
