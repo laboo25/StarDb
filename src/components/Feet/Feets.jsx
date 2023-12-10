@@ -9,9 +9,17 @@ const Feets = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 50;
 
-  const uniqueNamesWithLength = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-    .map(name => ({ name, length: name.length }))
-    .sort((a, b) => a.name.localeCompare(b.name));
+  const uniqueNamesWithLength = feetsdata.reduce((acc, item) => {
+    item.name.forEach(name => {
+      const existingItem = acc.find(entry => entry.name === name);
+      if (existingItem) {
+        existingItem.length = Math.max(existingItem.length, name.length);
+      } else {
+        acc.push({ name, length: name.length });
+      }
+    });
+    return acc;
+  }, []).sort((a, b) => a.name.localeCompare(b.name));
 
   const filteredData = feetsdata.filter(item => {
     const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
@@ -28,14 +36,10 @@ const Feets = () => {
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredData.slice(startIndex, endIndex);
 
-  const filteredSuggestions = uniqueNamesWithLength.filter(suggestion =>
-    suggestion.name.toLowerCase().includes(searchFilter.toLowerCase())
-  );
-
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
-
+  
   return (
     <>
       <div className='main w-full h-full'>
