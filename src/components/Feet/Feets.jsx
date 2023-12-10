@@ -10,12 +10,19 @@ const Feets = () => {
   const itemsPerPage = 50;
 
   const filteredData = feetsdata.filter(item => {
-    const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
-    const matchesAliases = item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(nameFilter.toLowerCase()));
-    const matchesSearch = (
-      item.name.join(', ').toLowerCase().includes(searchFilter.toLowerCase()) ||
-      (item.aliases && item.aliases.join(', ').toLowerCase().includes(searchFilter.toLowerCase()))
-    );
+    const matchesName = item.name.some(name => typeof name === 'string' && name.toLowerCase().includes(nameFilter.toLowerCase()));
+const matchesAliases = item.aliases && item.aliases.some(alias => typeof alias === 'string' && alias.toLowerCase().includes(nameFilter.toLowerCase()));
+const matchesSearch = (
+  item.name.map(name => (typeof name === 'string' ? name : '')).join(', ').toLowerCase().includes(searchFilter.toLowerCase()) ||
+  (item.aliases && item.aliases.map(alias => (typeof alias === 'string' ? alias : '')).join(', ').toLowerCase().includes(searchFilter.toLowerCase()))
+);
+
+    // const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
+    // const matchesAliases = item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(nameFilter.toLowerCase()));
+    // const matchesSearch = (
+    //   item.name.join(', ').toLowerCase().includes(searchFilter.toLowerCase()) ||
+    //   (item.aliases && item.aliases.join(', ').toLowerCase().includes(searchFilter.toLowerCase()))
+    // );
     return (nameFilter === '' || matchesName || matchesAliases) && (searchFilter === '' || matchesSearch);
   });
 
