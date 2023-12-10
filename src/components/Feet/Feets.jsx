@@ -9,9 +9,11 @@ const Feets = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 50;
 
-  const filteredData = feetsdata.filter(item => {
-    
+  const uniqueNamesWithLength = Array.from(new Set(feetsdata.flatMap(item => item.name)))
+    .map(name => ({ name, length: name.length }))
+    .sort((a, b) => a.name.localeCompare(b.name));
 
+  const filteredData = feetsdata.filter(item => {
     const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
     const matchesAliases = item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(nameFilter.toLowerCase()));
     const matchesSearch = (
@@ -26,14 +28,8 @@ const Feets = () => {
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredData.slice(startIndex, endIndex);
 
-  const uniqueNames = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-    .sort() // Sorting in ascending order (A-Z)
-    .filter((name, index, arr) => arr.indexOf(name) === index);
-  
-
-  // Filter suggestions based on the current input value
-  const filteredSuggestions = uniqueNames.filter(suggestion =>
-    suggestion.toLowerCase().includes(searchFilter.toLowerCase())
+  const filteredSuggestions = uniqueNamesWithLength.filter(suggestion =>
+    suggestion.name.toLowerCase().includes(searchFilter.toLowerCase())
   );
 
   const handlePageChange = (page) => {
@@ -48,40 +44,28 @@ const Feets = () => {
             <Link to='/' className='font-bold text-[25px]'>Home</Link>
           </div>
           <div className="flex justify-center mt-2 text-gray-500">
-        <p>Total items: {filteredData.length}</p>
-      </div>
+            <p>Total items: {filteredData.length}</p>
+          </div>
           <div className='flex justify-between'>
             <div className="options flex justify-center items-center mx-4">
-              <label className=" text-sm font-bold text-gray-700 mb-2" htmlFor="nameFilter">Names:</label>
+              <label className="text-sm font-bold text-gray-700 mb-2" htmlFor="nameFilter">Names:</label>
               <select
-  id="nameFilter"
-  value={nameFilter}
-  onChange={(e) => setNameFilter(e.target.value)}
-  className="w-full p-2 border rounded mx-4"
->
-  <option value="">All Names</option>
-  {uniqueNames.map((item, index) => (
-    <option className='capitalize' key={index} value={item.name}>
-      {`${item.name} (${item.length})`}
-    </option>
-  ))}
-</select>
-
-{/*               <select
                 id="nameFilter"
                 value={nameFilter}
                 onChange={(e) => setNameFilter(e.target.value)}
                 className="w-full p-2 border rounded mx-4"
               >
                 <option value="">All Names</option>
-                {uniqueNames.map((name, index) => (
-                  <option className= 'capitalize' key={index} value={name}>{name}</option>
+                {uniqueNamesWithLength.map((item, index) => (
+                  <option className='capitalize' key={index} value={item.name}>
+                    {`${item.name} (${item.length})`}
+                  </option>
                 ))}
-              </select> */}
+              </select>
             </div>
 
-            <div className="search flex justify-center items-center ">
-              <label className=" text-sm font-bold text-gray-700 mb-2" htmlFor="searchFilter">Search:</label>
+            <div className="search flex justify-center items-center">
+              <label className="text-sm font-bold text-gray-700 mb-2" htmlFor="searchFilter">Search:</label>
               <input
                 type="text"
                 id="searchFilter"
@@ -90,26 +74,13 @@ const Feets = () => {
                 className="w-full p-2 mx-5 border rounded"
                 placeholder="Search..."
               />
-{/*               {filteredSuggestions.length > 0 && (
-                <div className="suggestions">
-                  {filteredSuggestions.map((suggestion, index) => (
-                    <div
-                      key={index}
-                      className="suggestion"
-                      onClick={() => setSearchFilter(suggestion)}
-                    >
-                      {suggestion}
-                    </div>
-                  ))}
-                </div>
-              )} */}
             </div>
           </div>
         </div>
 
         <div className='row'>
           {currentItems.map((item) => (
-            <div className='column ' key={item.id}>
+            <div className='column' key={item.id}>
               <a
                 href={item.imgUrl}
                 data-caption={item.name.join(', ')}
@@ -151,17 +122,17 @@ const Feets = () => {
         </div>
 
         <div className="flex justify-center mt-4 py-4">
-  {Array.from({ length: totalPages }, (_, index) => (
-    <button
-  key={index}
-  type="button"  // Add this line to prevent the default form submission behavior
-  className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
-  onClick={() => handlePageChange(index + 1)}
->
-  {index + 1}
-</button>
-  ))}
-</div>
+          {Array.from({ length: totalPages }, (_, index) => (
+            <button
+              key={index}
+              type="button"
+              className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
+              onClick={() => handlePageChange(index + 1)}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
       </div>
     </>
   );
