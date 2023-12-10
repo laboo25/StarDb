@@ -821,5 +821,13 @@ export const HomeData = [
         color: 'hotpink',
         txtcolor: 'white',
     },
+    {
+        id: uuidv4(),
+        title:"valentina nappi",
+        to: '/valentina-nappi',
+        image:"https://raw.githubusercontent.com/laboo25/mag-imgs/main/index/valentinaNappi—index.jpg",
+        color: 'white',
+        txtcolor: 'black',
+    },
 
 ]
