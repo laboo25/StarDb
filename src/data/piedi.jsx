@@ -767,7 +767,7 @@ export const piedi = [
         id: uuidv4(),
         name: ['piedi'],
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/piedi/piedi-128.jpg",
-        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/piedi/piedi-128.webp",
+        thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/piedi/piedi-28.webp",
 },
 {
         id: uuidv4(),

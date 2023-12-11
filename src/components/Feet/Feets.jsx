@@ -30,10 +30,24 @@ const Feets = () => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredData.slice(startIndex, endIndex);
+  const pagesToShow = 5; // Number of page buttons to show at a time
+
+  // Logic to calculate the range of pages to display
+  const startPage = Math.max(1, currentPage - Math.floor(pagesToShow / 2));
+  const endPage = Math.min(totalPages, startPage + pagesToShow - 1);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
+
+    // Check if the clicked button is a page number button (1-5)
+    const isPageNumberButton = page >= startPage && page <= endPage;
+
+    // Scroll to the top of the page only for page number buttons
+    if (isPageNumberButton) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
+
 
   return (
     <>
@@ -121,17 +135,87 @@ const Feets = () => {
         </div>
 
         <div className="flex justify-center mt-4 py-4">
-          {Array.from({ length: totalPages }, (_, index) => (
+
+          {/* "First" button */}
+          {startPage > 1 && (
             <button
-              key={index}
               type="button"
-              className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
-              onClick={() => handlePageChange(index + 1)}
+              className="pagination-btn"
+              onClick={() => handlePageChange(1)}
             >
-              {index + 1}
+              First
+            </button>
+          )}
+
+          {/* Previous button */}
+          {startPage > 1 && (
+            <button
+              type="button"
+              className="pagination-btn"
+              onClick={() => handlePageChange(startPage - 1)}
+            >
+              &lt;
+            </button>
+          )}
+
+          {/* Page buttons */}
+          {Array.from({ length: endPage - startPage + 1 }, (_, index) => (
+            <button
+              key={startPage + index}
+              type="button"
+              className={`pagination-btn ${currentPage === startPage + index ? 'active' : ''}`}
+              onClick={() => handlePageChange(startPage + index)}
+            >
+              {startPage + index}
             </button>
           ))}
+
+          {/* Next button */}
+          {endPage < totalPages && (
+            <button
+              type="button"
+              className="pagination-btn"
+              onClick={() => handlePageChange(endPage + 1)}
+            >
+              &gt;
+            </button>
+          )}
+
+          {/* "Last" button */}
+          {endPage < totalPages && (
+            <button
+              type="button"
+              className="pagination-btn"
+              onClick={() => handlePageChange(totalPages)}
+            >
+              Last
+            </button>
+          )}
+
+          {/* Input for manual page navigation */}
+          <div className="pagination-input">
+            <label className="text-sm font-bold text-gray-700 mb-2" htmlFor="manualPage">
+              Go to Page:
+            </label>
+            <input
+              type="number"
+              id="manualPage"
+              value={currentPage}
+              onChange={(e) => setCurrentPage(e.target.value)}
+              onBlur={() => handlePageChange(Number(currentPage))}
+              className="pagination-input-field"
+            />
+            <button
+              type="button"
+              className="pagination-btn pagination-go"
+              onClick={() => handlePageChange(Number(currentPage))}
+            >
+              Go
+            </button>
+          </div>
+
         </div>
+
       </div>
     </>
   );
