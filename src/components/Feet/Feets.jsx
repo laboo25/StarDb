@@ -30,19 +30,15 @@ const Feets = () => {
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const currentItems = filteredData.slice(startIndex, endIndex);
-  const pagesToShow = 5; // Number of page buttons to show at a time
+  const pagesToShow = 5;
 
-  // Logic to calculate the range of pages to display
   const startPage = Math.max(1, currentPage - Math.floor(pagesToShow / 2));
   const endPage = Math.min(totalPages, startPage + pagesToShow - 1);
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
-
-    // Check if the clicked button is a page number button (1-5)
     const isPageNumberButton = page >= startPage && page <= endPage;
 
-    // Scroll to the top of the page only for page number buttons
     if (isPageNumberButton) {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -199,25 +195,24 @@ const Feets = () => {
 
           {/* Input for manual page navigation */}
           <div className="pagination-input">
-            <label className="text-sm font-bold text-gray-700 mb-2" htmlFor="manualPage">
-              Go to Page:
-            </label>
-            <input
-              type="number"
-              id="manualPage"
-              value={currentPage}
-              onChange={(e) => setCurrentPage(e.target.value)}
-              onBlur={() => handlePageChange(Number(currentPage))}
-              className="pagination-input-field"
-            />
-            <button
-              type="button"
-              className="pagination-btn pagination-go"
-              onClick={() => handlePageChange(Number(currentPage))}
-            >
-              Go
-            </button>
-          </div>
+          <label className="text-sm font-bold text-gray-700 mb-2" htmlFor="manualPage">
+            Go to Page:
+          </label>
+          <input
+            type="number"
+            id="manualPage"
+            value={currentPage}
+            onChange={(e) => setCurrentPage(e.target.value)}
+            className="pagination-input-field"
+          />
+          <button
+            type="button"
+            className="pagination-btn pagination-go"
+            onClick={() => handlePageChange(Number(currentPage))}
+          >
+            Go
+          </button>
+        </div>
 
         </div>
 
