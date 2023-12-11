@@ -967,4 +967,4 @@ export const piedi = [
         imgUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/piedi/piedi-161.jpg",
         thumbnailUrl: "https://raw.githubusercontent.com/laboo25/feetImgs/main/piedi/piedi-161.webp",
 },
-]
+];

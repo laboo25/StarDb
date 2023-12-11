@@ -38,7 +38,7 @@ const Feets = () => {
   return (
     <>
       <div className='main w-full h-full'>
-        <div className='head w-full h-auto flex justify-between items-center flex-wrap flex-col py-3'>
+        <div className='head w-full h-auto flex justify-between items-center py-3'>
           <div className='logo w-[20%] mx-[50px]'>
             <Link to='/' className='font-bold text-[25px]'>Home</Link>
           </div>
