@@ -158,21 +158,21 @@ const Feets = () => {
             </button>
           )}
 
-          {/* Page buttons */}
-          {Array.from({ length: totalPages }, (_, index) => (
-  {/* "First" button */}
-  {startPage > 1 && (
-    <button
-      key={index}
-      type="button"
-      className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
-      onClick={() => handlePageChange(1)}
-      className="pagination-btn"
-    >
-      First {index + 1}
-    </button>
-  )}
+        
+
+{/* Page buttons */}
+{Array.from({ length: totalPages }, (_, index) => (
+  <button
+    key={index}
+    type="button"
+    className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
+    onClick={() => handlePageChange(index + 1)}  {/* Corrected onClick function */}
+  >
+    {index + 1}
+  </button>
 ))}
+
+
 
 
           {/* Next button */}
