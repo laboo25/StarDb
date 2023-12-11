@@ -154,19 +154,18 @@ const Feets = () => {
             </button>
           )}
 
-        
-
 {/* Page buttons */}
 {Array.from({ length: totalPages }, (_, index) => (
   <button
     key={index}
     type="button"
     className={`px-4 py-2 mx-2 border rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-white text-blue-500'}`}
-    onClick={() => handlePageChange(index + 1)}  {/* Corrected onClick function */}
+    onClick={() => handlePageChange(index + 1)}
   >
     {index + 1}
   </button>
 ))}
+
 
 
 
