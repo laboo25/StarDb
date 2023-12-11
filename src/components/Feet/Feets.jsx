@@ -10,14 +10,13 @@ const Feets = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 50;
 
-  // const uniqueNamesWithLength = Array.from(new Set(feetsdata.flatMap(item => item.name)))
-  //   .map(name => ({ name, length: name.length }))
-  //   .sort((a, b) => a.name.localeCompare(b.name));
-  const uniqueNamesWithLength = Array.from(new Set([...feetsdata, ...piedi].flatMap(item => item.name)))
-  .map(name => ({ name, length: name.length }))
-  .sort((a, b) => a.name.localeCompare(b.name));
+  const allData = [...feetsdata, ...piedi];
 
-  const filteredData = feetsdata.filter(item => {
+  const uniqueNamesWithLength = Array.from(new Set(allData.flatMap(item => item.name)))
+    .map(name => ({ name, length: name.length }))
+    .sort((a, b) => a.name.localeCompare(b.name));
+
+  const filteredData = allData.filter(item => {
     const matchesName = item.name.some(name => name.toLowerCase().includes(nameFilter.toLowerCase()));
     const matchesAliases = item.aliases && item.aliases.some(alias => alias.toLowerCase().includes(nameFilter.toLowerCase()));
     const matchesSearch = (
@@ -78,7 +77,7 @@ const Feets = () => {
           </div>
         </div>
 
-        <div className='row'>
+        <div className='feetrow'>
           {currentItems.map((item) => (
             <div className='column' key={item.id}>
               <a

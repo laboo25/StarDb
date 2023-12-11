@@ -1,6 +1,6 @@
 
 
-.row {
+.feetrow {
     height: 100%;
     width: 100%;
     background: rgb(214, 214, 214);
@@ -12,22 +12,22 @@
     padding: 30px;
     padding-top: 100px;
   }
-  .row .column {
+  .feetrow .column {
     width: 400px;
     height: 400px;
     display: flex;
     justify-content: center;
     justify-self: center;
   }
- .row .column a {
+ .feetrow .column a {
     width: inherit;
     height: inherit;
     display: flex;
  }
-.fancybox__backdrop {
+  .fancybox__backdrop {
     background-color: #f6f6f6 !important;
 }
-.fancybox__caption {
+  .fancybox__caption {
     color: black !important;
     text-transform: capitalize !important ;
 }
@@ -59,7 +59,7 @@
   .head label {
     display: none;
   }
-  .row {
+  .feetrow {
     padding-top: 10px;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     /* justify-content: center; */
@@ -68,7 +68,7 @@
     padding: 10px;
     padding-top: 20px;
   }
-  .row .column {
+  .feetrow .column {
     width: 150px;
     height: auto;
 /*     background-color: blue; */
