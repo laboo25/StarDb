@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Feet/feets.css';
 import { feetsdata } from "../../data/feetsData.jsx";
 import { piedi } from "../../data/piedi.jsx";
@@ -11,7 +11,38 @@ const Feets = () => {
   const itemsPerPage = 50;
 
   const allData = [...feetsdata, ...piedi];
+  useEffect(() => {
+    // Ensure images have dimensions to prevent CLS
+    const images = document.querySelectorAll('.feetrow img');
+    images.forEach(img => {
+      img.addEventListener('load', handleImageLoad);
+    });
 
+    return () => {
+      images.forEach(img => {
+        img.removeEventListener('load', handleImageLoad);
+      });
+    };
+  }, [currentPage]);
+
+  const handleImageLoad = (e) => {
+    const img = e.target;
+    if (img.naturalWidth > img.naturalHeight) {
+      img.style.width = '100%';
+      img.style.height = 'auto';
+      img.style.objectFit = 'contain';
+      img.style.justifyContent = 'center';
+    } else if (img.naturalWidth < img.naturalHeight) {
+      img.style.height = '100%';
+      img.style.width = 'auto';
+      img.style.objectFit = 'contain';
+      img.style.alignItems = 'center';
+    } else {
+      img.style.width = '100%';
+      img.style.height = '100%';
+      img.style.objectFit = 'contain';
+    }
+  };
   const uniqueNamesWithLength = Array.from(new Set(allData.flatMap(item => item.name)))
     .map(name => ({ name, length: name.length }))
     .sort((a, b) => a.name.localeCompare(b.name));
