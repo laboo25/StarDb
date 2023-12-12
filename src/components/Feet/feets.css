@@ -25,11 +25,41 @@
     display: flex;
  }
   .fancybox__backdrop {
-    background-color: #f6f6f6 !important;
+    background-color: #1f1f1f !important;
 }
   .fancybox__caption {
     color: black !important;
     text-transform: capitalize !important ;
+}
+.is-next::after {
+    content: '' !important;
+    width: 25px !important;
+    height: 50px !important;
+    display: block !important;
+    position: absolute !important;
+    right: 25% !important;
+    top: 50% !important;
+    transform: translate(-10%, -50%);
+    background:  url(../../../public/next.svg) !important;
+    background-repeat: no-repeat !important;
+}
+.is-next svg {
+  display: none;
+}
+.is-prev::after {
+  content: '' !important;
+  width: 25px !important;
+  height: 50px !important;
+  display: block !important;
+  position: absolute !important;
+  right: 25% !important;
+  top: 50% !important;
+  transform: translate(-10%, -50%);
+  background:  url(../../../public/prev.svg) !important;
+  background-repeat: no-repeat !important;
+}
+.is-prev svg {
+display: none;
 }
 
 input[type="number"] {
@@ -37,7 +67,11 @@ input[type="number"] {
 }
 
 input[type="number"]::-webkit-inner-spin-button,
-/* input[type="number"]::-webkit- */
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 
 
 
