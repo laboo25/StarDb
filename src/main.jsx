@@ -65,6 +65,9 @@ import Feets from './components/Feet/Feets.jsx';
     
     //////////////////////////////////////////////
 Fancybox.bind('[data-fancybox="gallery"]', {
+  Carousel: {
+        transition: "slide",
+      },
   Toolbar: {
     display: {
       left: ["infobar"],
