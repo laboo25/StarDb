@@ -223,16 +223,11 @@
   .row .column {
     width: 300px;
     height: 300px;
-    display: flex;
-    justify-content: center;
-    justify-self: center;
   }
  .row .column a {
-    width: inherit;
-    height: inherit;
-    display: flex;
+    width: auto;
+    height: auto;
  }
-  
   
                   /* media query */
   @media only screen and (max-width: 375px) {

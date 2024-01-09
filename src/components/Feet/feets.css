@@ -15,20 +15,16 @@
   .feetrow .column {
     width: 400px;
     height: 400px;
-    display: flex;
-    justify-content: center;
-    justify-self: center;
   }
  .feetrow .column a {
-    width: inherit;
-    height: inherit;
-    display: flex;
- }
+    width: auto;
+    height: auto;
+ } 
   .fancybox__backdrop {
     background-color: #1f1f1f !important;
 }
   .fancybox__caption {
-    color: black !important;
+    color: rgb(161, 161, 161) !important;
     text-transform: capitalize !important ;
 }
 .is-next::after {
@@ -160,15 +156,19 @@ input[type="number"]::-webkit-outer-spin-button {
     padding: 10px;
     padding-top: 20px;
   }
-  .feetrow .column {
+  /* .feetrow .column {
     width: 150px;
     height: auto;
 /*     background-color: blue; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     transition: all linear 0.5s;
-  }
+  } */
+  .column a {
+    width: auto;
+    height: auto;
+  } */
   .flex {
     flex-direction: row;
     flex-wrap: wrap;

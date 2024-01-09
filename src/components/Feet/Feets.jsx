@@ -11,38 +11,8 @@ const Feets = () => {
   const itemsPerPage = 50;
 
   const allData = [...feetsdata, ...piedi];
-  useEffect(() => {
-    // Ensure images have dimensions to prevent CLS
-    const images = document.querySelectorAll('.feetrow img');
-    images.forEach(img => {
-      img.addEventListener('load', handleImageLoad);
-    });
 
-    return () => {
-      images.forEach(img => {
-        img.removeEventListener('load', handleImageLoad);
-      });
-    };
-  }, [currentPage]);
-
-  const handleImageLoad = (e) => {
-    const img = e.target;
-    if (img.naturalWidth > img.naturalHeight) {
-      img.style.width = '100%';
-      img.style.height = 'auto';
-      img.style.objectFit = 'contain';
-      img.style.justifyContent = 'center';
-    } else if (img.naturalWidth < img.naturalHeight) {
-      img.style.height = '100%';
-      img.style.width = 'auto';
-      img.style.objectFit = 'contain';
-      img.style.alignItems = 'center';
-    } else {
-      img.style.width = '100%';
-      img.style.height = '100%';
-      img.style.objectFit = 'contain';
-    }
-  };
+  
   const uniqueNamesWithLength = Array.from(new Set(allData.flatMap(item => item.name)))
     .map(name => ({ name, length: name.length }))
     .sort((a, b) => a.name.localeCompare(b.name));
@@ -120,44 +90,27 @@ const Feets = () => {
 
         <div className='feetrow'>
           {currentItems.map((item) => (
+            <div>
             <div className='column' key={item.id}>
-              <a
-                href={item.imgUrl}
-                data-caption={item.name.join(', ')}
-                data-fancybox="gallery"
-                data-download-src={item.imgUrl}
-                style={{
-                  width: "auto",
-                  height: "auto",
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-              >
-                <img
-                  src={item.thumbnailUrl}
-                  alt={item.name.join(', ')}
-                  onLoad={(e) => {
-                    const img = e.target;
-                    if (img.naturalWidth > img.naturalHeight) {
-                      img.style.width = '100%';
-                      img.style.height = 'auto';
-                      img.style.objectFit = 'contain';
-                      img.style.justifyContent = 'center';
-                    } else if (img.naturalWidth < img.naturalHeight) {
-                      img.style.height = '100%';
-                      img.style.width = 'auto';
-                      img.style.objectFit = 'contain';
-                      img.style.alignItems = 'center';
-                    } else {
-                      img.style.width = '100%';
-                      img.style.height = '100%';
-                      img.style.objectFit = 'contain';
-                    }
-                  }}
-                />
-              </a>
-            </div>
+            <a
+              href={item.imgUrl}
+              data-caption={item.name.join(', ')}
+              data-fancybox="gallery"
+              data-download-src={item.imgUrl}
+              
+            >
+              <img
+                src={item.thumbnailUrl}
+                alt={item.name.join(', ')}
+                className='w-full h-full object-contain'
+              />
+            </a>
+          </div>
+          
+          <div>
+            <p className='text-center'>{item.name.join(', ')}</p>
+          </div>
+          </div>
           ))}
         </div>
 
