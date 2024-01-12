@@ -3,6 +3,9 @@ import '../Feet/feets.css';
 import { feetsdata } from "../../data/feetsData.jsx";
 import { piedi } from "../../data/piedi.jsx";
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 
 const Feets = () => {
   const [nameFilter, setNameFilter] = useState('');
@@ -91,26 +94,28 @@ const Feets = () => {
         <div className='feetrow'>
           {currentItems.map((item) => (
             <div>
-            <div className='column' key={item.id}>
-            <a
-              href={item.imgUrl}
-              data-caption={item.name.join(', ')}
-              data-fancybox="gallery"
-              data-download-src={item.imgUrl}
-              
-            >
-              <img
-                src={item.thumbnailUrl}
-                alt={item.name.join(', ')}
-                className='w-full h-full object-contain'
-              />
-            </a>
-          </div>
-          
-          <div>
-            <p className='text-center'>{item.name.join(', ')}</p>
-          </div>
-          </div>
+              <div className='column' key={item.id}>
+                <a
+                  href={item.imgUrl}
+                  data-caption={item.name.join(', ')}
+                  data-fancybox="gallery"
+                  data-download-src={item.imgUrl}
+                  loading="lazy"
+                >
+                  <LazyLoadImage
+                    src={item.thumbnailUrl}
+                    alt={item.name.join(', ')}
+                    className='w-full h-full object-contain'
+                    loading="lazy" // Add this line for lazy loading
+                  />
+                </a>
+
+              </div>
+
+              <div>
+                <p className='text-center'>{item.name.join(', ')}</p>
+              </div>
+            </div>
           ))}
         </div>
 
